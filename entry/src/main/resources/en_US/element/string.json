@@ -1,0 +1,432 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ArkTSComponents"
+    },
+    {
+      "name": "login_page",
+      "value": "Login page"
+    },
+    {
+      "name": "login_more",
+      "value": "Log in to your account to use more services"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "password",
+      "value": "Password"
+    },
+    {
+      "name": "login",
+      "value": "Log in"
+    },
+    {
+      "name": "register_account",
+      "value": "Registering an Account"
+    },
+    {
+      "name": "forgot_password",
+      "value": "Forgot Password"
+    },
+    {
+      "name": "message_login",
+      "value": "SMS verification code login"
+    },
+    {
+      "name": "other_login_method",
+      "value": "Other login methods"
+    },
+    {
+      "name": "vertical_line",
+      "value": "  |  "
+    },
+    {
+      "name": "input_empty_tips",
+      "value": "The input cannot be empty."
+    },
+    {
+      "name": "login_success",
+      "value": "The login is successful."
+    },
+    {
+      "name": "my_love",
+      "value": "My favorite"
+    },
+    {
+      "name": "history_record",
+      "value": "History"
+    },
+    {
+      "name": "message",
+      "value": "Message"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "Shopping cart"
+    },
+    {
+      "name": "my_goal",
+      "value": "My goal"
+    },
+    {
+      "name": "group",
+      "value": "Group"
+    },
+    {
+      "name": "favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "Recycle Bin"
+    },
+    {
+      "name": "rankings",
+      "value": "Rankings"
+    },
+    {
+      "name": "new_product_debut",
+      "value": "New product debut"
+    },
+    {
+      "name": "big_name_flash",
+      "value": "Big name flash"
+    },
+    {
+      "name": "find_good",
+      "value": "Find good things"
+    },
+    {
+      "name": "xiamen_station",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "more_big_names",
+      "value": "More Big Names"
+    },
+    {
+      "name": "push_notifications",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "data_management",
+      "value": "Data Management"
+    },
+    {
+      "name": "menu_settings",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "clear_cache",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "mainPage_tabTitles_home",
+      "value": "Home"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "Mine"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "Rankings"
+    },
+    {
+      "name": "mainPage_text_top",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "mainPage_new",
+      "value": "New product debut"
+    },
+    {
+      "name": "mainPage_text_new",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "mainPage_brand",
+      "value": "Big name flash"
+    },
+    {
+      "name": "mainPage_text_brand",
+      "value": "More Big Names"
+    },
+    {
+      "name": "mainPage_found",
+      "value": "Find good things"
+    },
+    {
+      "name": "mainPage_text_found",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "setting_account_name",
+      "value": "Mr. Lee"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "Data Management"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "清除缓存"
+    },
+    {
+      "name": "setting_list_privacy",
+      "value": "Privacy Agreement"
+    },
+    {
+      "name": "register_button",
+      "value": "Logout"
+    },
+    {
+      "name": "setting_button",
+      "value": "Logout"
+    },
+    {
+      "name": "home_list",
+      "value": "List"
+    },
+    {
+      "name": "setting_toggle",
+      "value": "switch"
+    },
+    {
+      "name": "pull_up_load_text",
+      "value": "Loading in..."
+    },
+    {
+      "name": "pull_down_refresh_text",
+      "value": "The drop-down refresh"
+    },
+    {
+      "name": "release_refresh_text",
+      "value": "Loosen the refresh"
+    },
+    {
+      "name": "refreshing_text",
+      "value": "Is refreshing"
+    },
+    {
+      "name": "refresh_success_text",
+      "value": "Refresh the success"
+    },
+    {
+      "name": "refresh_fail_text",
+      "value": "Refresh the failure"
+    },
+    {
+      "name": "http_error_message",
+      "value": "Network request failed, please try later!"
+    },
+    {
+      "name": "page_none_msg",
+      "value": "Network loading failure"
+    },
+    {
+      "name": "prompt_message",
+      "value": "No more data"
+    },
+    {
+      "name": "text_input_hint",
+      "value": "Nickname"
+    },
+    {
+      "name": "text_input_signature",
+      "value": "Personalized signature"
+    },
+    {
+      "name": "title_birthdate",
+      "value": "Date of birth"
+    },
+    {
+      "name": "title_phone",
+      "value": "phone"
+    },
+    {
+      "name": "title_school",
+      "value": "school"
+    },
+    {
+      "name": "title_school_number",
+      "value": "school number"
+    },
+    {
+      "name": "title_educational_background",
+      "value": "educational background"
+    },
+    {
+      "name": "title_user_name",
+      "value": "name"
+    },
+    {
+      "name": "title_password",
+      "value": "password"
+    },
+    {
+      "name": "title_password_again",
+      "value": "password again"
+    },
+    {
+      "name": "title_user_type",
+      "value": "UserType"
+    },
+    {
+      "name": "default_sex",
+      "value": "Male"
+    },
+    {
+      "name": "title_hobbies",
+      "value": "Hobbies (multiple choices)"
+    },
+    {
+      "name": "alert_dialog_message",
+      "value": "The current data is not saved. Are you sure you want to leave?"
+    },
+    {
+      "name": "cancel_button",
+      "value": "Cancel"
+    },
+    {
+      "name": "definite_button",
+      "value": "Definite"
+    },
+    {
+      "name": "text_personal_title",
+      "value": "Personal information"
+    },
+    {
+      "name": "text_title_hobbies",
+      "value": "Hobbies"
+    },
+    {
+      "name": "uploading_text",
+      "value": "Uploading... Please wait."
+    },
+    {
+      "name": "release_btn",
+      "value": "Release"
+    },
+    {
+      "name": "click_reload",
+      "value": "Click Reload"
+    },
+    {
+      "name": "prompt_no_title",
+      "value": "Please enter a title."
+    },
+    {
+      "name": "title_launch_type",
+      "value": "launch type"
+    },
+    {
+      "name": "prompt_select_img",
+      "value": "Select an image to upload."
+    },
+    {
+      "name": "prompt_no_content",
+      "value": "Please enter the content."
+    },
+    {
+      "name": "prompt_no_file",
+      "value": "Please select a picture."
+    },
+    {
+      "name": "upload_error_message",
+      "value": "Upload file failed, please try again!"
+    },
+    {
+      "name": "title_default_text",
+      "value": "Fill in the title"
+    },
+    {
+      "name": "content_default_text",
+      "value": "description"
+    },
+    {
+      "name": "title_user_id",
+      "value": "user_id"
+    },
+    {
+      "name": "title_city",
+      "value": "city"
+    },
+    {
+      "name": "title_company_name",
+      "value": "company"
+    },
+    {
+      "name": "title_supplier_name",
+      "value": "supplier"
+    },
+    {
+      "name": "harmony_hei_ti",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "harmony_hei_ti_medium",
+      "value": "HarmonyHeiTi-Medium"
+    },
+    {
+      "name": "tab_all",
+      "value": "All"
+    },
+    {
+      "name": "tab_domestic",
+      "value": "Domestic"
+    },
+    {
+      "name": "tab_international",
+      "value": "International"
+    },
+    {
+      "name": "tab_fun",
+      "value": "Fun"
+    },
+    {
+      "name": "tab_military",
+      "value": "Military"
+    },
+    {
+      "name": "tab_sports",
+      "value": "Sports"
+    },
+    {
+      "name": "tab_science",
+      "value": "Science"
+    }
+  ]
+}

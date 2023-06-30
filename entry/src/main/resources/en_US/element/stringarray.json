@@ -1,0 +1,52 @@
+{
+  "strarray": [
+    {
+      "name": "user_type_array",
+      "value": [
+        {
+          "value": "student"
+        },
+        {
+          "value": "supplier"
+        },
+        {
+          "value": "company"
+        }
+      ]
+    },
+    {
+      "name": "school_type_array",
+      "value": [
+        {
+          "value": "TsingHuaUniversity"
+        },
+        {
+          "value": "XidianUniversity"
+        },
+        {
+          "value": "PekingUniversity"
+        },
+        {
+          "value": "BeiyouUniversity"
+        },
+        {
+          "value": "zhongshanUniversity"
+        }
+      ]
+    },
+    {
+      "name": "educational_background",
+      "value": [
+        {
+          "value": "Undergraduate"
+        },
+        {
+          "value": "Master"
+        },
+        {
+          "value": "Doctor"
+        }
+      ]
+    }
+  ]
+}

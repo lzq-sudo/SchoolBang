@@ -1,0 +1,432 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ArkTSComponents"
+    },
+    {
+      "name": "login_page",
+      "value": "登录界面"
+    },
+    {
+      "name": "login_more",
+      "value": "一站式校园信息服务"
+    },
+    {
+      "name": "account",
+      "value": "帐号"
+    },
+    {
+      "name": "password",
+      "value": "密码"
+    },
+    {
+      "name": "login",
+      "value": "登录"
+    },
+    {
+      "name": "register_account",
+      "value": "注册帐号"
+    },
+    {
+      "name": "forgot_password",
+      "value": "忘记密码"
+    },
+    {
+      "name": "message_login",
+      "value": "短信验证码登录"
+    },
+    {
+      "name": "other_login_method",
+      "value": "其他登录方式"
+    },
+    {
+      "name": "vertical_line",
+      "value": "  |  "
+    },
+    {
+      "name": "input_empty_tips",
+      "value": "输入不能为空"
+    },
+    {
+      "name": "login_success",
+      "value": "登录成功"
+    },
+    {
+      "name": "my_love",
+      "value": "我的最爱"
+    },
+    {
+      "name": "history_record",
+      "value": "历史记录"
+    },
+    {
+      "name": "message",
+      "value": "消息"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "购物车"
+    },
+    {
+      "name": "my_goal",
+      "value": "我的目标"
+    },
+    {
+      "name": "group",
+      "value": "圈子"
+    },
+    {
+      "name": "favorites",
+      "value": "收藏"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "回收站"
+    },
+    {
+      "name": "rankings",
+      "value": "排行榜"
+    },
+    {
+      "name": "new_product_debut",
+      "value": "新品首发"
+    },
+    {
+      "name": "big_name_flash",
+      "value": "大牌闪购"
+    },
+    {
+      "name": "find_good",
+      "value": "发现好物"
+    },
+    {
+      "name": "xiamen_station",
+      "value": "厦门站，我们不见不散"
+    },
+    {
+      "name": "more_big_names",
+      "value": "更多大牌"
+    },
+    {
+      "name": "push_notifications",
+      "value": "推送通知"
+    },
+    {
+      "name": "data_management",
+      "value": "数据管理"
+    },
+    {
+      "name": "menu_settings",
+      "value": "菜单设置"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "clear_cache",
+      "value": "清除缓存"
+    },
+    {
+      "name": "mainPage_tabTitles_home",
+      "value": "首页"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "我的"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "排行榜"
+    },
+    {
+      "name": "mainPage_text_top",
+      "value": "厦门站，我们不见不散"
+    },
+    {
+      "name": "mainPage_new",
+      "value": "新品首发"
+    },
+    {
+      "name": "mainPage_text_new",
+      "value": "厦门站，我们不见不散"
+    },
+    {
+      "name": "mainPage_brand",
+      "value": "大牌闪购"
+    },
+    {
+      "name": "mainPage_text_brand",
+      "value": "更多大牌"
+    },
+    {
+      "name": "mainPage_found",
+      "value": "发现好物"
+    },
+    {
+      "name": "mainPage_text_found",
+      "value": "厦门站，我们不见不散"
+    },
+    {
+      "name": "setting_account_name",
+      "value": "李先生"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "推送通知"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "数据管理"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "菜单设置"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "关于"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "清除缓存"
+    },
+    {
+      "name": "setting_list_privacy",
+      "value": "隐私协议"
+    },
+    {
+      "name": "register_button",
+      "value": "注册"
+    },
+    {
+      "name": "setting_button",
+      "value": "退出登录"
+    },
+    {
+      "name": "home_list",
+      "value": "列表"
+    },
+    {
+      "name": "setting_toggle",
+      "value": "开关"
+    },
+    {
+      "name": "pull_up_load_text",
+      "value": "加载中..."
+    },
+    {
+      "name": "pull_down_refresh_text",
+      "value": "下拉刷新"
+    },
+    {
+      "name": "release_refresh_text",
+      "value": "松开刷新"
+    },
+    {
+      "name": "refreshing_text",
+      "value": "正在刷新"
+    },
+    {
+      "name": "refresh_success_text",
+      "value": "刷新成功"
+    },
+    {
+      "name": "refresh_fail_text",
+      "value": "刷新失败"
+    },
+    {
+      "name": "http_error_message",
+      "value": "网络请求失败，请稍后尝试！"
+    },
+    {
+      "name": "page_none_msg",
+      "value": "网络加载失败"
+    },
+    {
+      "name": "prompt_message",
+      "value": "没有更多数据了"
+    },
+    {
+      "name": "text_input_hint",
+      "value": "昵称"
+    },
+    {
+      "name": "text_input_signature",
+      "value": "个性签名"
+    },
+    {
+      "name": "title_birthdate",
+      "value": "出生日期"
+    },
+    {
+      "name": "title_phone",
+      "value": "手机"
+    },
+    {
+      "name": "title_school",
+      "value": "学校"
+    },
+    {
+      "name": "title_school_number",
+      "value": "学号"
+    },
+    {
+      "name": "title_educational_background",
+      "value": "学历"
+    },
+    {
+      "name": "title_user_name",
+      "value": "姓名"
+    },
+    {
+      "name": "title_password",
+      "value": "密码"
+    },
+    {
+      "name": "title_user_id",
+      "value": "身份证"
+    },
+    {
+      "name": "title_city",
+      "value": "城市"
+    },
+    {
+      "name": "title_company_name",
+      "value": "企业名"
+    },
+    {
+      "name": "title_supplier_name",
+      "value": "店名"
+    },
+    {
+      "name": "title_password_again",
+      "value": "再次输入密码"
+    },
+    {
+      "name": "title_user_type",
+      "value": "选择身份"
+    },
+    {
+      "name": "title_launch_type",
+      "value": "发布类别"
+    },
+    {
+      "name": "default_sex",
+      "value": "男"
+    },
+    {
+      "name": "title_hobbies",
+      "value": "兴趣爱好（多选）"
+    },
+    {
+      "name": "alert_dialog_message",
+      "value": "当前数据未保存，是否离开？"
+    },
+    {
+      "name": "cancel_button",
+      "value": "取消"
+    },
+    {
+      "name": "definite_button",
+      "value": "确定"
+    },
+    {
+      "name": "text_personal_title",
+      "value": "个人信息"
+    },
+    {
+      "name": "text_title_hobbies",
+      "value": "兴趣爱好"
+    },
+    {
+      "name": "uploading_text",
+      "value": "正在上传，请稍等"
+    },
+    {
+      "name": "release_btn",
+      "value": "发布"
+    },
+    {
+      "name": "click_reload",
+      "value": "重新加载"
+    },
+    {
+      "name": "prompt_no_title",
+      "value": "请输入标题"
+    },
+    {
+      "name": "prompt_select_img",
+      "value": "请选择图片进行上传"
+    },
+    {
+      "name": "prompt_no_content",
+      "value": "请输入内容"
+    },
+    {
+      "name": "prompt_no_file",
+      "value": "请选择图片"
+    },
+    {
+      "name": "upload_error_message",
+      "value": "上传文件失败，请重试！"
+    },
+    {
+      "name": "title_default_text",
+      "value": "填写标题"
+    },
+    {
+      "name": "content_default_text",
+      "value": "描述"
+    },
+    {
+      "name": "harmony_hei_ti",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "harmony_hei_ti_medium",
+      "value": "HarmonyHeiTi-Medium"
+    },
+    {
+      "name": "tab_all",
+      "value": "全部"
+    },
+    {
+      "name": "tab_domestic",
+      "value": "国内"
+    },
+    {
+      "name": "tab_international",
+      "value": "国际"
+    },
+    {
+      "name": "tab_fun",
+      "value": "娱乐"
+    },
+    {
+      "name": "tab_military",
+      "value": "军事"
+    },
+    {
+      "name": "tab_sports",
+      "value": "体育"
+    },
+    {
+      "name": "tab_science",
+      "value": "科技"
+    }
+  ]
+}

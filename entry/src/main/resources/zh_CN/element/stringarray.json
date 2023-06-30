@@ -1,0 +1,86 @@
+{
+  "strarray": [
+    {
+      "name": "user_school_type_array",
+      "value": [
+        {
+          "value": "清华大学（研）"
+        },
+        {
+          "value": "西安电子科技大学（本）"
+        }
+      ]
+    },
+    {
+      "name": "user_type_array",
+      "value": [
+        {
+          "value": "学生"
+        },
+        {
+          "value": "商家"
+        },
+        {
+          "value": "企业"
+        }
+      ]
+    },
+    {
+      "name": "launch_type_array",
+      "value": [
+        {
+          "value": "二手"
+        },
+        {
+          "value": "活动"
+        },
+        {
+          "value": "招聘"
+        },
+        {
+          "value": "赠换"
+        },
+        {
+          "value": "失物"
+        },
+        {
+          "value": "表白墙"
+        }
+      ]
+    },
+    {
+      "name": "school_type_array",
+      "value": [
+        {
+          "value": "清华大学"
+        },
+        {
+          "value": "西安电子科技大学"
+        },
+        {
+          "value": "北京大学"
+        },
+        {
+          "value": "北京邮电大学"
+        },
+        {
+          "value": "中山大学"
+        }
+      ]
+    },
+    {
+      "name": "educational_background",
+      "value": [
+        {
+          "value": "本科"
+        },
+        {
+          "value": "硕士"
+        },
+        {
+          "value": "博士"
+        }
+      ]
+    }
+  ]
+}
