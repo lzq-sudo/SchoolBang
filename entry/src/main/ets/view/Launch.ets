@@ -1,7 +1,6 @@
 
 
 import { FULL_WIDTH } from '../common/constant/CommonConstant';
-import LaunchSubPage from '../view/LaunchSubPage';
 import router from '@ohos.router';
 import Constants from '../common/constants/Constants';
 

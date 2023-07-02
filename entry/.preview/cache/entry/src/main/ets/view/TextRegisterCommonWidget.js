@@ -41,7 +41,7 @@ export default class TextCommonWidget extends ViewPU {
             Row.create();
             Row.debugLine("view/TextRegisterCommonWidget.ets(13:5)");
             Row.margin({ top: '8' });
-            Row.borderRadius({ "id": 16777544, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777612, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             Row.width(CommonConstants.COMMON_DIALOG_WIDTH);
             Row.height('40');
@@ -55,10 +55,10 @@ export default class TextCommonWidget extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
             Text.debugLine("view/TextRegisterCommonWidget.ets(14:7)");
-            Text.fontSize({ "id": 16777571, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ left: { "id": 16777484, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777642, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ left: { "id": 16777549, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Text.height(CommonConstants.FULL_HEIGHT);
-            Text.fontColor({ "id": 16777246, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -69,13 +69,13 @@ export default class TextCommonWidget extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.content);
             Text.debugLine("view/TextRegisterCommonWidget.ets(19:7)");
-            Text.fontSize({ "id": 16777571, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777642, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.textAlign(TextAlign.End);
             Text.textOverflow({ overflow: TextOverflow.Ellipsis });
             Text.maxLines(CommonConstants.ONE_LINES);
             Text.margin({
-                left: { "id": 16777452, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777453, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777512, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777513, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             Text.layoutWeight(CommonConstants.WEIGHT_ONE);
             Text.width(CommonConstants.FULL_WIDTH);
@@ -87,11 +87,11 @@ export default class TextCommonWidget extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777394, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777432, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("view/TextRegisterCommonWidget.ets(30:7)");
-            Image.width({ "id": 16777437, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777436, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ right: { "id": 16777438, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.width({ "id": 16777487, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777486, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ right: { "id": 16777488, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Image.pop();
             }

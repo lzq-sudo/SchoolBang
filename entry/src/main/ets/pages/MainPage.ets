@@ -19,7 +19,8 @@ import Launch from '../view/Launch';
 import Setting from "../view/Setting"
 import LaunchEditPage from "../view/LaunchEditPage"
 import router from '@ohos.router';
-
+import { BreakpointConstants } from '../common/constants/BreakpointConstants';
+import { StyleConstants } from '../common/constants/StyleConstants';
 
 
 /**
@@ -30,6 +31,7 @@ import router from '@ohos.router';
 struct MainPage {
   @State currentIndex: number = CommonConstants.HOME_TAB_INDEX;
   private tabsController: TabsController = new TabsController();
+  @StorageProp('currentBreakpoint') currentBreakpoint: string = 'sm';
 
   @Builder TabBuilder(title: string, index: number, selectedImg: Resource, normalImg: Resource) {
     Column() {
@@ -73,7 +75,6 @@ struct MainPage {
       TabContent() {
         Home()
       }
-      .padding({ left: $r('app.float.mainPage_padding'), right: $r('app.float.mainPage_padding') })
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
       .tabBar(this.TabBuilder(CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX,
       $r('app.media.home_selected'), $r('app.media.home_normal')))

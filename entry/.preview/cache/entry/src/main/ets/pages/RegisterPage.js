@@ -6,18 +6,18 @@ import Logger from '@bundle:com.example.component/entry/ets/common/utils/Logger'
 import router from '@ohos:router';
 import prompt from '@ohos:promptAction';
 function __TextInput__inputStyle() {
-    TextInput.placeholderColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.height({ "id": 16777508, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.fontSize({ "id": 16777442, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.placeholderColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.height({ "id": 16777573, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777494, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.backgroundColor({ "id": 16777222, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.width(CommonConstants.FULL_PARENT);
     TextInput.padding({ left: CommonConstants.INPUT_PADDING_LEFT });
-    TextInput.margin({ top: { "id": 16777490, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+    TextInput.margin({ top: { "id": 16777555, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
 }
 function __Line__lineStyle() {
     Line.width(CommonConstants.FULL_PARENT);
-    Line.height({ "id": 16777501, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    Line.backgroundColor({ "id": 16777236, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Line.height({ "id": 16777566, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Line.backgroundColor({ "id": 16777242, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
 }
 class RegisterPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
@@ -212,7 +212,7 @@ class RegisterPage extends ViewPU {
                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                 if (isInitialRender) {
                     ViewPU.create(new TextRegisterCommonWidget(this, {
-                        title: { "id": 16777379, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                        title: { "id": 16777417, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                         content: this.__school,
                         onItemClick: () => {
                             CommonUtils.textPickerDialog(this.schoolArray, (typeValue) => {
@@ -239,13 +239,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777380, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777418, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(93:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.schoolNumber = value;
             });
@@ -269,7 +269,7 @@ class RegisterPage extends ViewPU {
                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                 if (isInitialRender) {
                     ViewPU.create(new TextRegisterCommonWidget(this, {
-                        title: { "id": 16777373, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                        title: { "id": 16777411, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                         content: this.__educationalBackground,
                         onItemClick: () => {
                             CommonUtils.textPickerDialog(this.educationalBackgroundArray, (typeValue) => {
@@ -299,13 +299,13 @@ class RegisterPage extends ViewPU {
         this.base.bind(this)();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777382, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777420, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(116:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.userId = value;
             });
@@ -326,13 +326,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777381, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777419, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(125:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.supplierName = value;
             });
@@ -353,13 +353,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777370, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777408, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(135:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.city = value;
             });
@@ -380,13 +380,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777379, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777417, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(145:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.school = value;
             });
@@ -410,13 +410,13 @@ class RegisterPage extends ViewPU {
         this.base.bind(this)();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777382, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777420, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(158:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.userId = value;
             });
@@ -437,13 +437,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777371, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777409, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(168:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.companyName = value;
             });
@@ -466,13 +466,13 @@ class RegisterPage extends ViewPU {
     base(parent = null) {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777378, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777416, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(180:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.phone = value;
             });
@@ -493,13 +493,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777376, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777414, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(191:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.password = value;
             });
@@ -520,13 +520,13 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777383, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777421, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/RegisterPage.ets(201:5)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
             TextInput.margin({ left: '12vp' });
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.name = value;
             });
@@ -549,7 +549,7 @@ class RegisterPage extends ViewPU {
     register() {
         if (this.userType === '' || this.name === '') {
             prompt.showToast({
-                message: { "id": 16777304, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                message: { "id": 16777331, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
         }
         else {
@@ -573,13 +573,13 @@ class RegisterPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.debugLine("pages/RegisterPage.ets(236:5)");
-            Column.backgroundColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777261, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Column.height(CommonConstants.FULL_PARENT);
             Column.width(CommonConstants.FULL_PARENT);
             Column.padding({
-                left: { "id": 16777537, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777537, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                bottom: { "id": 16777511, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777604, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777604, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                bottom: { "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Column.pop();
@@ -588,10 +588,10 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777275, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777293, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("pages/RegisterPage.ets(237:7)");
-            Image.width({ "id": 16777483, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777483, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777547, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777547, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.alignSelf(ItemAlign.Start);
             Image.margin({
                 left: CommonConstants.BACK_MARGIN_LEFT,
@@ -607,10 +607,10 @@ class RegisterPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777367, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777397, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/RegisterPage.ets(248:7)");
             Text.fontColor(Color.Black);
-            Text.fontSize({ "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777606, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.margin({ top: CommonConstants.PERSONAL_MARGIN_TOP });
             Text.alignSelf(ItemAlign.Center);
             if (!isInitialRender) {
@@ -624,7 +624,7 @@ class RegisterPage extends ViewPU {
                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                 if (isInitialRender) {
                     ViewPU.create(new TextCommonWidget(this, {
-                        title: { "id": 16777384, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                        title: { "id": 16777422, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                         content: this.__userType,
                         onItemClick: () => {
                             CommonUtils.textPickerDialog(this.userTypeArray, (typeValue) => {
@@ -695,15 +695,15 @@ class RegisterPage extends ViewPU {
         Blank.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Button.createWithLabel({ "id": 16777344, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
+            Button.createWithLabel({ "id": 16777371, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
             Button.debugLine("pages/RegisterPage.ets(276:7)");
             Button.width(CommonConstants.BUTTON_WIDTH);
-            Button.height({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777529, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777570, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777596, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
             Button.fontColor({ "id": 16777223, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.backgroundColor({ "id": 16777242, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.margin({ bottom: { "id": 16777553, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Button.backgroundColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.margin({ bottom: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Button.onClick(() => {
                 this.register();
             });

@@ -20,12 +20,12 @@
         [
             {
                 "description" : "$string:EntryAbility_desc",
-                "descriptionId" : 16777282,
+                "descriptionId" : 16777301,
                 "exported" : true,
                 "icon" : "$media:icon",
-                "iconId" : 16777271,
+                "iconId" : 16777289,
                 "label" : "$string:EntryAbility_label",
-                "labelId" : 16777283,
+                "labelId" : 16777302,
                 "name" : "EntryAbility",
                 "skills" : 
                 [
@@ -42,16 +42,16 @@
                 ],
                 "srcEntry" : "./ets/entryability/EntryAbility.ts",
                 "startWindowBackground" : "$color:start_window_background",
-                "startWindowBackgroundId" : 16777252,
+                "startWindowBackgroundId" : 16777261,
                 "startWindowIcon" : "$media:icon",
-                "startWindowIconId" : 16777271
+                "startWindowIconId" : 16777289
             }
         ],
         "compileMode" : "esmodule",
         "deliveryWithInstall" : true,
         "dependencies" : [],
         "description" : "$string:module_desc",
-        "descriptionId" : 16777322,
+        "descriptionId" : 16777349,
         "deviceTypes" : 
         [
             "phone"

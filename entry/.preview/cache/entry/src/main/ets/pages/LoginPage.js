@@ -15,22 +15,22 @@
 import router from '@ohos:router';
 import CommonConstants from '@bundle:com.example.component/entry/ets/common/constants/CommonConstants';
 function __TextInput__inputStyle() {
-    TextInput.placeholderColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.height({ "id": 16777508, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.fontSize({ "id": 16777442, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.placeholderColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.height({ "id": 16777573, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777494, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.backgroundColor({ "id": 16777222, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.width(CommonConstants.FULL_PARENT);
     TextInput.padding({ left: CommonConstants.INPUT_PADDING_LEFT });
-    TextInput.margin({ top: { "id": 16777490, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+    TextInput.margin({ top: { "id": 16777555, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
 }
 function __Line__lineStyle() {
     Line.width(CommonConstants.FULL_PARENT);
-    Line.height({ "id": 16777501, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    Line.backgroundColor({ "id": 16777236, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Line.height({ "id": 16777566, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Line.backgroundColor({ "id": 16777242, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
 }
 function __Text__blueTextStyle() {
-    Text.fontColor({ "id": 16777239, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    Text.fontSize({ "id": 16777567, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Text.fontColor({ "id": 16777245, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Text.fontSize({ "id": 16777637, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     Text.fontWeight(FontWeight.Medium);
 }
 class LoginPage extends ViewPU {
@@ -93,8 +93,8 @@ class LoginPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Button.createWithChild({ type: ButtonType.Circle, stateEffect: true });
             Button.debugLine("pages/LoginPage.ets(54:5)");
-            Button.height({ "id": 16777534, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.width({ "id": 16777534, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777601, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.width({ "id": 16777601, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.backgroundColor({ "id": 16777222, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Button.pop();
@@ -138,13 +138,13 @@ class LoginPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.debugLine("pages/LoginPage.ets(86:5)");
-            Column.backgroundColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777261, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Column.height(CommonConstants.FULL_PARENT);
             Column.width(CommonConstants.FULL_PARENT);
             Column.padding({
-                left: { "id": 16777537, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777537, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                bottom: { "id": 16777511, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777604, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777604, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                bottom: { "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Column.pop();
@@ -153,11 +153,11 @@ class LoginPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777256, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777269, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("pages/LoginPage.ets(87:7)");
             Image.width('200vp');
-            Image.height({ "id": 16777514, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ top: { "id": 16777516, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777515, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.height({ "id": 16777579, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ top: { "id": 16777581, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777580, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -165,11 +165,11 @@ class LoginPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777306, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777333, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/LoginPage.ets(91:7)");
-            Text.fontSize({ "id": 16777529, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777241, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ bottom: { "id": 16777509, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, top: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777596, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777247, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ bottom: { "id": 16777574, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, top: { "id": 16777575, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -178,12 +178,12 @@ class LoginPage extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777285, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777304, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/LoginPage.ets(96:7)");
             TextInput.maxLength(CommonConstants.INPUT_ACCOUNT_LENGTH);
             TextInput.type(InputType.Normal);
             __TextInput__inputStyle();
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.account = value;
             });
@@ -204,12 +204,12 @@ class LoginPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777329, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777356, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("pages/LoginPage.ets(106:7)");
             TextInput.maxLength(CommonConstants.INPUT_PASSWORD_LENGTH);
             TextInput.type(InputType.Password);
             __TextInput__inputStyle();
-            TextInput.backgroundColor({ "id": 16777255, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.backgroundColor({ "id": 16777267, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.onChange((value) => {
                 this.password = value;
             });
@@ -234,7 +234,7 @@ class LoginPage extends ViewPU {
             Row.debugLine("pages/LoginPage.ets(116:7)");
             Row.justifyContent(FlexAlign.SpaceBetween);
             Row.width(CommonConstants.FULL_PARENT);
-            Row.margin({ top: { "id": 16777464, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Row.margin({ top: { "id": 16777527, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Row.pop();
             }
@@ -242,10 +242,10 @@ class LoginPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777321, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777348, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/LoginPage.ets(117:9)");
             __Text__blueTextStyle();
-            Text.fontColor({ "id": 16777246, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -254,10 +254,10 @@ class LoginPage extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777297, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777324, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/LoginPage.ets(118:9)");
             __Text__blueTextStyle();
-            Text.fontColor({ "id": 16777246, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -267,15 +267,15 @@ class LoginPage extends ViewPU {
         Row.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Button.createWithLabel({ "id": 16777305, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
+            Button.createWithLabel({ "id": 16777332, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
             Button.debugLine("pages/LoginPage.ets(124:7)");
             Button.width(CommonConstants.BUTTON_WIDTH);
-            Button.height({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777570, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontColor({ "id": 16777223, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777529, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777596, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
-            Button.backgroundColor({ "id": 16777242, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.margin({ top: { "id": 16777507, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777506, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Button.backgroundColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.margin({ top: { "id": 16777572, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777571, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Button.onClick(() => {
                 this.login();
             });
@@ -287,14 +287,14 @@ class LoginPage extends ViewPU {
         Button.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Button.createWithLabel({ "id": 16777343, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
+            Button.createWithLabel({ "id": 16777370, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
             Button.debugLine("pages/LoginPage.ets(135:7)");
             Button.width(CommonConstants.BUTTON_WIDTH);
-            Button.height({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777529, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontColor({ "id": 16777246, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777570, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777596, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
-            Button.backgroundColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.backgroundColor({ "id": 16777261, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.onClick(() => {
                 router.replaceUrl({ url: 'pages/RegisterPage' });
             });
@@ -313,10 +313,10 @@ class LoginPage extends ViewPU {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         LoadingProgress.create();
                         LoadingProgress.debugLine("pages/LoginPage.ets(147:9)");
-                        LoadingProgress.color({ "id": 16777238, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        LoadingProgress.width({ "id": 16777513, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        LoadingProgress.height({ "id": 16777513, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        LoadingProgress.margin({ top: { "id": 16777512, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                        LoadingProgress.color({ "id": 16777244, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        LoadingProgress.width({ "id": 16777578, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        LoadingProgress.height({ "id": 16777578, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        LoadingProgress.margin({ top: { "id": 16777577, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                         if (!isInitialRender) {
                             LoadingProgress.pop();
                         }
@@ -345,12 +345,12 @@ class LoginPage extends ViewPU {
         Blank.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777327, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777354, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/LoginPage.ets(155:7)");
-            Text.fontColor({ "id": 16777246, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontSize({ "id": 16777504, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777252, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777569, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Medium);
-            Text.margin({ top: { "id": 16777536, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777535, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.margin({ top: { "id": 16777603, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777602, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -366,9 +366,9 @@ class LoginPage extends ViewPU {
             }
             ViewStackProcessor.StopGetAccessRecording();
         });
-        this.imageButton.bind(this)({ "id": 16777393, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-        this.imageButton.bind(this)({ "id": 16777265, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-        this.imageButton.bind(this)({ "id": 16777278, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+        this.imageButton.bind(this)({ "id": 16777431, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+        this.imageButton.bind(this)({ "id": 16777281, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+        this.imageButton.bind(this)({ "id": 16777297, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
         Row.pop();
         Column.pop();
     }
