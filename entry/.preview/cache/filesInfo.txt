@@ -1,8 +1,14 @@
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/pages/LoginPage.js;com.example.component/entry/ets/pages/LoginPage;esm;entry/src/main/ets/pages/LoginPage.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/constants/CommonConstants.js;com.example.component/entry/ets/common/constants/CommonConstants;esm;entry/src/main/ets/common/constants/CommonConstants.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/entryability/EntryAbility.js;com.example.component/entry/ets/entryability/EntryAbility;esm;entry/src/main/ets/entryability/EntryAbility.ts;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/pages/Search.js;com.example.component/entry/ets/pages/Search;esm;entry/src/main/ets/pages/Search.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/pages/RegisterPage.js;com.example.component/entry/ets/pages/RegisterPage;esm;entry/src/main/ets/pages/RegisterPage.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/pages/MainPage.js;com.example.component/entry/ets/pages/MainPage;esm;entry/src/main/ets/pages/MainPage.ets;entry
-D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/entryability/EntryAbility.js;com.example.component/entry/ets/entryability/EntryAbility;esm;entry/src/main/ets/entryability/EntryAbility.ts;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/constants/StyleConstants.js;com.example.component/entry/ets/common/constants/StyleConstants;esm;entry/src/main/ets/common/constants/StyleConstants.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/SearchInput.js;com.example.component/entry/ets/view/SearchInput;esm;entry/src/main/ets/view/SearchInput.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/ClearSearch.js;com.example.component/entry/ets/view/ClearSearch;esm;entry/src/main/ets/view/ClearSearch.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/FlexLayout.js;com.example.component/entry/ets/view/FlexLayout;esm;entry/src/main/ets/view/FlexLayout.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/viewmodel/SearchViewModel.js;com.example.component/entry/ets/viewmodel/SearchViewModel;esm;entry/src/main/ets/viewmodel/SearchViewModel.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/utils/CommonUtils.js;com.example.component/entry/ets/common/utils/CommonUtils;esm;entry/src/main/ets/common/utils/CommonUtils.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/TextCommonWidget.js;com.example.component/entry/ets/view/TextCommonWidget;esm;entry/src/main/ets/view/TextCommonWidget.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/TextRegisterCommonWidget.js;com.example.component/entry/ets/view/TextRegisterCommonWidget;esm;entry/src/main/ets/view/TextRegisterCommonWidget.ets;entry
@@ -10,7 +16,6 @@ D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/util
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/Home.js;com.example.component/entry/ets/view/Home;esm;entry/src/main/ets/view/Home.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/Setting.js;com.example.component/entry/ets/view/Setting;esm;entry/src/main/ets/view/Setting.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/LaunchEditPage.js;com.example.component/entry/ets/view/LaunchEditPage;esm;entry/src/main/ets/view/LaunchEditPage.ets;entry
-D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/constants/StyleConstants.js;com.example.component/entry/ets/common/constants/StyleConstants;esm;entry/src/main/ets/common/constants/StyleConstants.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/constants/BreakpointConstants.js;com.example.component/entry/ets/common/constants/BreakpointConstants;esm;entry/src/main/ets/common/constants/BreakpointConstants.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/viewmodel/HomeData.js;com.example.component/entry/ets/viewmodel/HomeData;esm;entry/src/main/ets/viewmodel/HomeData.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/viewmodel/NewProductData.js;com.example.component/entry/ets/viewmodel/NewProductData;esm;entry/src/main/ets/viewmodel/NewProductData.ets;entry
@@ -25,5 +30,5 @@ D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/util
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/UploadingLayout.js;com.example.component/entry/ets/view/UploadingLayout;esm;entry/src/main/ets/view/UploadingLayout.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/view/TextLaunchCommonWidget.js;com.example.component/entry/ets/view/TextLaunchCommonWidget;esm;entry/src/main/ets/view/TextLaunchCommonWidget.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/bean/ItemData.js;com.example.component/entry/ets/common/bean/ItemData;esm;entry/src/main/ets/common/bean/ItemData.ets;entry
-D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/utils/HttpUtils.js;com.example.component/entry/ets/common/utils/HttpUtils;esm;entry/src/main/ets/common/utils/HttpUtils.ets;entry
 D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/bean/ResponseResult.js;com.example.component/entry/ets/common/bean/ResponseResult;esm;entry/src/main/ets/common/bean/ResponseResult.ets;entry
+D:/huaweiDev/ArkTSSchoolBang/entry/.preview/cache/entry/src/main/ets/common/utils/HttpUtils.js;com.example.component/entry/ets/common/utils/HttpUtils;esm;entry/src/main/ets/common/utils/HttpUtils.ets;entry

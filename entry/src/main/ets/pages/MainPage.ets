@@ -41,7 +41,7 @@ struct MainPage {
       Text(title)
         .margin({ top: $r('app.float.mainPage_baseTab_top') })
         .fontSize($r('app.float.main_tab_fontSize'))
-        .fontColor(this.currentIndex === index ? $r('app.color.mainPage_selected') : $r('app.color.mainPage_normal'))
+        .fontColor(this.currentIndex === index ? $r('app.color.black') : $r('app.color.mainPage_normal'))
     }
     .justifyContent(FlexAlign.Center)
     .height($r('app.float.mainPage_barHeight'))
@@ -77,7 +77,7 @@ struct MainPage {
       }
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
       .tabBar(this.TabBuilder(CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX,
-      $r('app.media.home_selected'), $r('app.media.home_normal')))
+      $r('app.media.home_icon_black'), $r("app.media.first_icon_gray")))
 
       TabContent() {
         LaunchEditPage()
@@ -85,7 +85,7 @@ struct MainPage {
       .padding({ left: $r('app.float.mainPage_padding'), right: $r('app.float.mainPage_padding') })
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
       .tabBar(this.LaunchBuilder(CommonConstants.LAUNCH_TAB_INDEX,
-        $r('app.media.ic_add'), $r('app.media.ic_add')))
+        $r('app.media.add_icon_yellow'), $r('app.media.add_icon_yellow')))
 
       TabContent() {
         Setting()
@@ -93,7 +93,7 @@ struct MainPage {
       .padding({ left: $r('app.float.mainPage_padding'), right: $r('app.float.mainPage_padding') })
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
       .tabBar(this.TabBuilder(CommonConstants.MINE_TITLE, CommonConstants.MINE_TAB_INDEX,
-      $r('app.media.mine_selected'), $r('app.media.mine_normal')))
+      $r('app.media.icon_my_black'), $r('app.media.icon_my_grey')))
     }
     .width(CommonConstants.FULL_PARENT)
     .backgroundColor(Color.White)

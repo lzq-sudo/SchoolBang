@@ -10,20 +10,20 @@ export class CommonUtils {
      */
     alertDialog(context) {
         AlertDialog.show({
-            message: { "id": 16777313, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+            message: { "id": 16777323, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
             alignment: DialogAlignment.Bottom,
             offset: {
                 dx: 0,
                 dy: CommonConstants.DY_OFFSET
             },
             primaryButton: {
-                value: { "id": 16777315, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                value: { "id": 16777325, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 action: () => {
                     Logger.info(CommonConstants.TAG_COMMON_UTILS, 'Callback cancel button is clicked');
                 }
             },
             secondaryButton: {
-                value: { "id": 16777321, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                value: { "id": 16777331, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 action: () => {
                     // Exiting the app.
                     context.terminateSelf();

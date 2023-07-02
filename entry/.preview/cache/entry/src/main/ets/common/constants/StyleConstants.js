@@ -119,4 +119,84 @@ StyleConstants.HALF_ONE = 0.5;
  * Number of value: -1.
  */
 StyleConstants.MINUS_ONE = -1;
+/**
+ * Font weight.
+ */
+StyleConstants.FONT_WEIGHT = 500;
+/**
+ * One hundred percent.
+ */
+StyleConstants.FULL_PERCENT = '100%';
+/**
+ * Recent text height.
+ */
+StyleConstants.RECENT_TEXT_HEIGHT = '2.7%';
+/**
+ * Recent text width.
+ */
+StyleConstants.RECENT_TEXT_WIDTH = '48.9%';
+/**
+ * Delete image height.
+ */
+StyleConstants.DELETE_IMAGE_HEIGHT = '3.1%';
+/**
+ * Delete image width.
+ */
+StyleConstants.DELETE_IMAGE_WIDTH = '6.7%';
+/**
+ * No search image height.
+ */
+StyleConstants.NO_SEARCH_IMAGE_HEIGHT = '15.4%';
+/**
+ * No search image width.
+ */
+StyleConstants.NO_SEARCH_IMAGE_WIDTH = '33.3%';
+/**
+ * No search text height.
+ */
+StyleConstants.NO_SEARCH_TEXT_HEIGHT = '2.7%';
+/**
+ * No search text width.
+ */
+StyleConstants.NO_SEARCH_TEXT_WIDTH = '26.7%';
+/**
+ * Flew layout padding top.
+ */
+StyleConstants.FLEX_PADDING_TOP = '0.8%';
+/**
+ * Flew layout padding bottom.
+ */
+StyleConstants.FLEX_PADDING_BOTTOM = '0.8%';
+/**
+ * Flew layout padding left.
+ */
+StyleConstants.FLEX_PADDING_LEFT = '4.4%';
+/**
+ * Flew layout padding right.
+ */
+StyleConstants.FLEX_PADDING_RIGHT = '4.4%';
+/**
+ * Search input height.
+ */
+StyleConstants.SEARCH_HEIGHT = '5.1%';
+/**
+ * Search input width.
+ */
+StyleConstants.SEARCH_WIDTH = '70%';
+/**
+ * Text max line.
+ */
+StyleConstants.TEXT_MAX_LINE = 2;
+/**
+ * Search placeholder.
+ */
+StyleConstants.SEARCH_PLACEHOLDER = '搜索...';
+/**
+ * Layout weight.
+ */
+StyleConstants.LAYOUT_ClEAN_WEIGHT = 8;
+/**
+ * Search icon.
+ */
+StyleConstants.SEARCH_ICON = '/resources/base/media/ic_search.png';
 //# sourceMappingURL=StyleConstants.js.map

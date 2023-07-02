@@ -37,10 +37,10 @@ const classifyTitle: Resource[] = [
 ]
 
 const swiperImage: Resource[] = [
-  $r('app.media.ic_banner01'),
-  $r('app.media.ic_banner02'),
-  $r('app.media.ic_banner03'),
-  $r('app.media.ic_banner04')
+  $r('app.media.tsing_first'),
+  $r('app.media.tsing_second'),
+  $r('app.media.tsing_three'),
+  $r('app.media.tsing_four')
 ]
 
 type ActivityTitleModel = {

@@ -13,7 +13,7 @@ export default class LaunchEditPage extends ViewPU {
         this.title = '';
         this.content = '';
         this.__launchType = new ObservedPropertySimplePU('', this, "launchType");
-        this.launchTypeArray = { "id": 16777274, "type": 10009, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+        this.launchTypeArray = { "id": 16777282, "type": 10009, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
         this.__imageUri = new ObservedPropertySimplePU('', this, "imageUri");
         this.__isUploading = new ObservedPropertySimplePU(false, this, "isUploading");
         this.setInitiallyProvidedValue(params);
@@ -77,15 +77,15 @@ export default class LaunchEditPage extends ViewPU {
     }
     uploadNewsData() {
         if (!this.title) {
-            showToast({ "id": 16777360, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            showToast({ "id": 16777371, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             return;
         }
         if (!this.content) {
-            showToast({ "id": 16777358, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            showToast({ "id": 16777369, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             return;
         }
         if (!this.imageUri) {
-            showToast({ "id": 16777359, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            showToast({ "id": 16777370, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             return;
         }
         this.isUploading = true;
@@ -100,11 +100,11 @@ export default class LaunchEditPage extends ViewPU {
                 router.back();
             }).catch(() => {
                 this.isUploading = false;
-                showToast({ "id": 16777423, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                showToast({ "id": 16777436, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             });
         }).catch(() => {
             this.isUploading = false;
-            showToast({ "id": 16777423, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            showToast({ "id": 16777436, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
         });
     }
     initialRender() {
@@ -124,7 +124,7 @@ export default class LaunchEditPage extends ViewPU {
             Navigation.height(Constants.FULL_PERCENT);
             Navigation.title(Constants.RELEASE_TITLE);
             Navigation.titleMode(NavigationTitleMode.Full);
-            Navigation.backgroundColor({ "id": 16777243, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Navigation.backgroundColor({ "id": 16777249, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Navigation.pop();
             }
@@ -135,9 +135,9 @@ export default class LaunchEditPage extends ViewPU {
             Column.create();
             Column.debugLine("view/LaunchEditPage.ets(70:9)");
             Column.padding({
-                left: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                bottom: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                bottom: { "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             Column.height(Constants.FULL_PERCENT);
             Column.justifyContent(FlexAlign.SpaceBetween);
@@ -150,7 +150,7 @@ export default class LaunchEditPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.debugLine("view/LaunchEditPage.ets(71:11)");
-            Column.borderRadius({ "id": 16777524, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Column.borderRadius({ "id": 16777553, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Column.backgroundColor(Color.White);
             Column.width(Constants.FULL_PERCENT);
             if (!isInitialRender) {
@@ -163,7 +163,7 @@ export default class LaunchEditPage extends ViewPU {
                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                 if (isInitialRender) {
                     ViewPU.create(new TextLaunchCommonWidget(this, {
-                        title: { "id": 16777413, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                        title: { "id": 16777426, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                         content: this.__launchType,
                         onItemClick: () => {
                             CommonUtils.textPickerDialog(this.launchTypeArray, (typeValue) => {
@@ -182,8 +182,8 @@ export default class LaunchEditPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Divider.create();
             Divider.debugLine("view/LaunchEditPage.ets(81:13)");
-            Divider.opacity({ "id": 16777523, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Divider.color({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Divider.opacity({ "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Divider.color({ "id": 16777273, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Divider.width(Constants.DIVIDER_WIDTH);
             if (!isInitialRender) {
                 Divider.pop();
@@ -192,18 +192,18 @@ export default class LaunchEditPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextInput.create({ placeholder: { "id": 16777410, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.create({ placeholder: { "id": 16777423, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextInput.debugLine("view/LaunchEditPage.ets(86:13)");
-            TextInput.fontSize({ "id": 16777643, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            TextInput.placeholderFont({ size: { "id": 16777643, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TextInput.margin({ top: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TextInput.fontColor({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.fontSize({ "id": 16777678, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.placeholderFont({ size: { "id": 16777678, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.margin({ top: { "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextInput.fontColor({ "id": 16777273, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TextInput.backgroundColor(Color.White);
             TextInput.onChange((value) => {
                 this.title = value;
             });
             TextInput.width(Constants.FULL_PERCENT);
-            TextInput.height({ "id": 16777551, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextInput.height({ "id": 16777583, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 TextInput.pop();
             }
@@ -213,8 +213,8 @@ export default class LaunchEditPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Divider.create();
             Divider.debugLine("view/LaunchEditPage.ets(97:13)");
-            Divider.opacity({ "id": 16777523, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Divider.color({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Divider.opacity({ "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Divider.color({ "id": 16777273, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Divider.width(Constants.DIVIDER_WIDTH);
             if (!isInitialRender) {
                 Divider.pop();
@@ -223,13 +223,13 @@ export default class LaunchEditPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            TextArea.create({ placeholder: { "id": 16777318, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextArea.create({ placeholder: { "id": 16777328, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextArea.debugLine("view/LaunchEditPage.ets(101:13)");
-            TextArea.placeholderFont({ size: { "id": 16777643, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TextArea.fontColor({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            TextArea.height({ "id": 16777485, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            TextArea.fontSize({ "id": 16777643, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            TextArea.margin({ top: { "id": 16777595, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextArea.placeholderFont({ size: { "id": 16777678, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TextArea.fontColor({ "id": 16777273, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextArea.height({ "id": 16777508, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextArea.fontSize({ "id": 16777678, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TextArea.margin({ top: { "id": 16777630, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             TextArea.backgroundColor(Color.White);
             TextArea.onChange((value) => {
                 this.content = value;
@@ -255,7 +255,7 @@ export default class LaunchEditPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
             Row.debugLine("view/LaunchEditPage.ets(112:15)");
-            Row.padding({ "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.padding({ "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Row.pop();
             }
@@ -263,10 +263,10 @@ export default class LaunchEditPage extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create(this.imageUri ? this.imageUri : { "id": 16777294, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create(this.imageUri ? this.imageUri : { "id": 16777305, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("view/LaunchEditPage.ets(113:17)");
-            Image.width({ "id": 16777550, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777550, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777582, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777582, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.objectFit(ImageFit.Cover);
             Image.onClick(this.selectImage.bind(this));
             if (!isInitialRender) {
@@ -279,14 +279,14 @@ export default class LaunchEditPage extends ViewPU {
         Column.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Button.createWithLabel({ "id": 16777372, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.createWithLabel({ "id": 16777384, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.debugLine("view/LaunchEditPage.ets(129:11)");
-            Button.fontSize({ "id": 16777643, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.backgroundColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontColor({ "id": 16777223, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.height({ "id": 16777609, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.width({ "id": 16777610, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.margin({ bottom: { "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Button.fontSize({ "id": 16777678, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.backgroundColor({ "id": 16777254, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontColor({ "id": 16777225, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777644, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.width({ "id": 16777645, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.margin({ bottom: { "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Button.onClick(this.uploadNewsData.bind(this));
             if (!isInitialRender) {
                 Button.pop();

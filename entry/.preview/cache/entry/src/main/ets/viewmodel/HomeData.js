@@ -13,9 +13,9 @@
  * limitations under the License.
  */
 const searchSwiper = [
-    { "id": 16777385, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777386, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777387, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+    { "id": 16777398, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777399, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777400, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
 ];
 const classifyTitle = [
     // @ts-ignore
@@ -34,27 +34,27 @@ const classifyTitle = [
     '失物',
 ];
 const swiperImage = [
-    { "id": 16777461, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777295, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777272, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777482, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+    { "id": 16777478, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777485, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777219, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777467, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
 ];
 const activityTitle = [
     {
-        title: { "id": 16777307, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-        desc: { "id": 16777308, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+        title: { "id": 16777317, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+        desc: { "id": 16777318, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
     },
     {
-        title: { "id": 16777311, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-        desc: { "id": 16777312, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+        title: { "id": 16777321, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+        desc: { "id": 16777322, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
     },
     {
-        title: { "id": 16777309, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-        desc: { "id": 16777310, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+        title: { "id": 16777319, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+        desc: { "id": 16777320, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
     },
     {
-        title: { "id": 16777305, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-        desc: { "id": 16777306, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+        title: { "id": 16777315, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+        desc: { "id": 16777316, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
     }
 ];
 export { searchSwiper, classifyTitle, swiperImage, activityTitle };

@@ -55,7 +55,7 @@ export default class TextCommonWidget extends ViewPU {
             Row.create();
             Row.debugLine("view/TextLaunchCommonWidget.ets(26:5)");
             Row.margin({ top: 12 });
-            Row.borderRadius({ "id": 16777612, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777647, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             Row.width(CommonConstants.COMMON_DIALOG_WIDTH);
             Row.height(50);
@@ -69,7 +69,7 @@ export default class TextCommonWidget extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
             Text.debugLine("view/TextLaunchCommonWidget.ets(27:7)");
-            Text.fontSize({ "id": 16777642, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777677, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.margin({ left: 6 });
             Text.height(CommonConstants.FULL_HEIGHT);
             if (!isInitialRender) {
@@ -82,13 +82,13 @@ export default class TextCommonWidget extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.content);
             Text.debugLine("view/TextLaunchCommonWidget.ets(31:7)");
-            Text.fontSize({ "id": 16777642, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777677, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.textAlign(TextAlign.End);
             Text.textOverflow({ overflow: TextOverflow.Ellipsis });
             Text.maxLines(CommonConstants.ONE_LINES);
             Text.margin({
-                left: { "id": 16777512, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777513, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777541, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777542, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             Text.layoutWeight(CommonConstants.WEIGHT_ONE);
             Text.width(CommonConstants.FULL_WIDTH);
@@ -100,11 +100,11 @@ export default class TextCommonWidget extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777432, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777446, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("view/TextLaunchCommonWidget.ets(42:7)");
-            Image.width({ "id": 16777487, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777486, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ right: { "id": 16777488, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.width({ "id": 16777510, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777509, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ right: { "id": 16777511, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Image.pop();
             }

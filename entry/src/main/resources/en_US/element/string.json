@@ -519,6 +519,18 @@
     {
       "name": "activity_title_affordable_desc",
       "value": "Cheap good"
+    },
+    {
+      "name": "recent_searches",
+      "value": "Recent Searches"
+    },
+    {
+      "name": "no_search_content",
+      "value": "There is no search content"
+    },
+    {
+      "name": "search",
+      "value": "Search"
     }
   ]
 }

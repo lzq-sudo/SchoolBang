@@ -1,17 +1,3 @@
-/*
- * Copyright (c) 2022 Huawei Device Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 import { StyleConstants } from '../common/constants/StyleConstants';
 import { BreakpointConstants } from '../common/constants/BreakpointConstants';
@@ -19,6 +5,7 @@ import { searchSwiper, classifyTitle, swiperImage } from '../viewmodel/HomeData'
 import { productData, ProductDataModel, aspectRatio } from '../viewmodel/NewProductData';
 import { CommonDataSource } from '../common/utils/CommonDataSource';
 import { BreakPointType } from '../common/utils/BreakpointSystem';
+import router from '@ohos.router';
 
 /**
  * Home tab content
@@ -42,7 +29,7 @@ export default struct Home {
   @Builder SearchTitle() {
     Column() {
       Row() {
-        Image($r('app.media.ic_search'))
+        Image($r('app.media.search'))
           .width($r('app.float.vp_twenty'))
           .height($r('app.float.vp_twenty'))
           .margin({
@@ -71,6 +58,9 @@ export default struct Home {
     }
     .width(StyleConstants.FULL_WIDTH)
     .padding({ top: $r('app.float.vp_twelve'), bottom: $r('app.float.vp_twelve') })
+    .onClick(() => {
+      router.replaceUrl({ url: 'pages/Search' });
+    })
   }
 
   @Builder ClassifyTitle() {
@@ -89,7 +79,7 @@ export default struct Home {
         Image($r('app.media.ic_split_line'))
           .width($r('app.float.vp_one'))
           .height($r('app.float.vp_fourteen'))
-        Image($r('app.media.ic_morexxx'))
+        Image($r('app.media.more_icon'))
           .width($r('app.float.vp_sixteen'))
           .height($r('app.float.vp_sixteen'))
           .margin({

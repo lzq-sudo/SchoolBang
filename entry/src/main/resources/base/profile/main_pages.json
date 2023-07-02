@@ -2,6 +2,7 @@
   "src": [
     "pages/LoginPage",
     "pages/MainPage",
-    "pages/RegisterPage"
+    "pages/RegisterPage",
+    "pages/Search"
   ]
 }

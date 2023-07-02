@@ -1,23 +1,10 @@
-/*
- * Copyright (c) 2022 Huawei Device Co., Ltd.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 import { StyleConstants } from '@bundle:com.example.component/entry/ets/common/constants/StyleConstants';
 import { BreakpointConstants } from '@bundle:com.example.component/entry/ets/common/constants/BreakpointConstants';
 import { searchSwiper, classifyTitle, swiperImage } from '@bundle:com.example.component/entry/ets/viewmodel/HomeData';
 import { productData, aspectRatio } from '@bundle:com.example.component/entry/ets/viewmodel/NewProductData';
 import { CommonDataSource } from '@bundle:com.example.component/entry/ets/common/utils/CommonDataSource';
 import { BreakPointType } from '@bundle:com.example.component/entry/ets/common/utils/BreakpointSystem';
+import router from '@ohos:router';
 export default class Home extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
@@ -28,7 +15,7 @@ export default class Home extends ViewPU {
         this.__titleIndex = new ObservedPropertySimplePU(0, this, "titleIndex");
         this.__activityTitleIndex = new ObservedPropertySimplePU(0, this, "activityTitleIndex");
         this.onClickItem = undefined;
-        this.userSchoolTypeArray = { "id": 16777275, "type": 10009, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+        this.userSchoolTypeArray = { "id": 16777283, "type": 10009, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
         this.controller = new SearchController();
         this.setInitiallyProvidedValue(params);
     }
@@ -117,9 +104,12 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("view/Home.ets(43:5)");
+            Column.debugLine("view/Home.ets(30:5)");
             Column.width(StyleConstants.FULL_WIDTH);
-            Column.padding({ top: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Column.padding({ top: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Column.onClick(() => {
+                router.replaceUrl({ url: 'pages/Search' });
+            });
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -128,10 +118,10 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/Home.ets(44:7)");
-            Row.height({ "id": 16777614, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.debugLine("view/Home.ets(31:7)");
+            Row.height({ "id": 16777649, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.width(StyleConstants.FULL_WIDTH);
-            Row.borderRadius({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             if (!isInitialRender) {
                 Row.pop();
@@ -140,13 +130,13 @@ export default class Home extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777469, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.debugLine("view/Home.ets(45:9)");
-            Image.width({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777499, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.debugLine("view/Home.ets(32:9)");
+            Image.width({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.margin({
-                left: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Image.pop();
@@ -156,7 +146,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Swiper.create();
-            Swiper.debugLine("view/Home.ets(52:9)");
+            Swiper.debugLine("view/Home.ets(39:9)");
             Swiper.autoPlay(true);
             Swiper.loop(true);
             Swiper.vertical(true);
@@ -174,7 +164,7 @@ export default class Home extends ViewPU {
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Column.create();
-                    Column.debugLine("view/Home.ets(54:13)");
+                    Column.debugLine("view/Home.ets(41:13)");
                     Column.alignItems(HorizontalAlign.Start);
                     if (!isInitialRender) {
                         Column.pop();
@@ -184,8 +174,8 @@ export default class Home extends ViewPU {
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Text.create(item);
-                    Text.debugLine("view/Home.ets(55:15)");
-                    Text.fontSize({ "id": 16777636, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    Text.debugLine("view/Home.ets(42:15)");
+                    Text.fontSize({ "id": 16777671, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                     Text.fontColor(Color.Black);
                     if (!isInitialRender) {
                         Text.pop();
@@ -210,8 +200,8 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Flex.create({ justifyContent: FlexAlign.SpaceBetween });
-            Flex.debugLine("view/Home.ets(77:5)");
-            Flex.margin({ top: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Flex.debugLine("view/Home.ets(67:5)");
+            Flex.margin({ top: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Flex.width(StyleConstants.FULL_WIDTH);
             if (!isInitialRender) {
                 Flex.pop();
@@ -226,8 +216,8 @@ export default class Home extends ViewPU {
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Text.create(item);
-                    Text.debugLine("view/Home.ets(79:9)");
-                    Text.fontSize({ "id": 16777591, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    Text.debugLine("view/Home.ets(69:9)");
+                    Text.fontSize({ "id": 16777626, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                     Text.opacity(this.titleIndex === index ? StyleConstants.FULL_OPACITY : StyleConstants.EIGHTY_OPACITY);
                     Text.fontWeight(this.titleIndex === index ? StyleConstants.FONT_WEIGHT_SEVEN : StyleConstants.FONT_WEIGHT_FOUR);
                     Text.fontColor(Color.Black);
@@ -251,7 +241,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.debugLine("view/Home.ets(88:7)");
+            Row.debugLine("view/Home.ets(78:7)");
             Row.onClick(() => {
                 this.titleIndex = undefined;
             });
@@ -262,10 +252,10 @@ export default class Home extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777455, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.debugLine("view/Home.ets(89:9)");
-            Image.width({ "id": 16777655, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777654, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777472, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.debugLine("view/Home.ets(79:9)");
+            Image.width({ "id": 16777690, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777689, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -273,13 +263,13 @@ export default class Home extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777449, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.debugLine("view/Home.ets(92:9)");
-            Image.width({ "id": 16777657, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777657, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777506, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.debugLine("view/Home.ets(82:9)");
+            Image.width({ "id": 16777692, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777692, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.margin({
-                left: { "id": 16777662, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777662, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777697, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777697, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Image.pop();
@@ -289,8 +279,8 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create('其他');
-            Text.debugLine("view/Home.ets(99:9)");
-            Text.fontSize({ "id": 16777591, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.debugLine("view/Home.ets(89:9)");
+            Text.fontSize({ "id": 16777626, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontColor(Color.Black);
             Text.opacity(this.titleIndex === undefined ? StyleConstants.FULL_OPACITY : StyleConstants.EIGHTY_OPACITY);
             Text.fontWeight(this.titleIndex === undefined ?
@@ -308,8 +298,8 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Swiper.create();
-            Swiper.debugLine("view/Home.ets(115:5)");
-            Swiper.indicatorStyle({ selectedColor: { "id": 16777241, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Swiper.debugLine("view/Home.ets(105:5)");
+            Swiper.indicatorStyle({ selectedColor: { "id": 16777247, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Swiper.autoPlay(true);
             Swiper.itemSpace(this.currentBreakpoint === BreakpointConstants.BREAKPOINT_SM ? 0 : StyleConstants.ITEM_SPACE);
             Swiper.width(StyleConstants.FULL_WIDTH);
@@ -317,7 +307,7 @@ export default class Home extends ViewPU {
             Swiper.displayCount(this.currentBreakpoint === BreakpointConstants.BREAKPOINT_LG ? StyleConstants.DISPLAY_THREE :
                 (this.currentBreakpoint === BreakpointConstants.BREAKPOINT_MD ? StyleConstants.DISPLAY_TWO :
                     StyleConstants.DISPLAY_ONE));
-            Swiper.margin({ top: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Swiper.margin({ top: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Swiper.pop();
             }
@@ -331,10 +321,10 @@ export default class Home extends ViewPU {
                 this.observeComponentCreation((elmtId, isInitialRender) => {
                     ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                     Image.create(item);
-                    Image.debugLine("view/Home.ets(117:9)");
+                    Image.debugLine("view/Home.ets(107:9)");
                     Image.width(StyleConstants.FULL_WIDTH);
                     Image.aspectRatio(StyleConstants.IMAGE_ASPECT_RATIO);
-                    Image.borderRadius({ "id": 16777657, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    Image.borderRadius({ "id": 16777692, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                     Image.backgroundColor(Color.White);
                     if (!isInitialRender) {
                         Image.pop();
@@ -355,7 +345,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             List.create({ space: StyleConstants.TWELVE_SPACE });
-            List.debugLine("view/Home.ets(136:5)");
+            List.debugLine("view/Home.ets(126:5)");
             List.lanes(this.currentBreakpoint === BreakpointConstants.BREAKPOINT_SM ?
                 StyleConstants.DISPLAY_TWO : StyleConstants.DISPLAY_THREE);
             if (!isInitialRender) {
@@ -372,10 +362,10 @@ export default class Home extends ViewPU {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         ListItem.create(deepRenderFunction, isLazyCreate);
                         ListItem.margin({
-                            left: { "id": 16777656, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                            right: { "id": 16777656, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                            left: { "id": 16777691, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                            right: { "id": 16777691, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                         });
-                        ListItem.debugLine("view/Home.ets(138:9)");
+                        ListItem.debugLine("view/Home.ets(128:9)");
                         if (!isInitialRender) {
                             ListItem.pop();
                         }
@@ -390,8 +380,8 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Column.create();
-                            Column.debugLine("view/Home.ets(139:11)");
-                            Column.borderRadius({ "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Column.debugLine("view/Home.ets(129:11)");
+                            Column.borderRadius({ "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Column.pop();
                             }
@@ -399,8 +389,8 @@ export default class Home extends ViewPU {
                         });
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                            Image.create({ "id": 16777452, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.debugLine("view/Home.ets(140:13)");
+                            Image.create({ "id": 16777469, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.debugLine("view/Home.ets(130:13)");
                             Image.width(StyleConstants.FULL_WIDTH);
                             Image.aspectRatio(new BreakPointType({
                                 sm: aspectRatio.sm,
@@ -416,12 +406,12 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Column.create();
-                            Column.debugLine("view/Home.ets(148:13)");
+                            Column.debugLine("view/Home.ets(138:13)");
                             Column.width(StyleConstants.FULL_WIDTH);
                             Column.backgroundColor(Color.White);
                             Column.alignItems(HorizontalAlign.Start);
                             Column.justifyContent(FlexAlign.Start);
-                            Column.borderRadius({ bottomLeft: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottomRight: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Column.borderRadius({ bottomLeft: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottomRight: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                             if (!isInitialRender) {
                                 Column.pop();
                             }
@@ -435,21 +425,21 @@ export default class Home extends ViewPU {
                                     this.observeComponentCreation((elmtId, isInitialRender) => {
                                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                                         Text.create(item.comment);
-                                        Text.debugLine("view/Home.ets(150:17)");
-                                        Text.fontSize({ "id": 16777638, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                        Text.debugLine("view/Home.ets(140:17)");
+                                        Text.fontSize({ "id": 16777673, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                         Text.border({
-                                            width: { "id": 16777655, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            color: { "id": 16777263, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            radius: { "id": 16777654, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            width: { "id": 16777690, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            color: { "id": 16777272, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            radius: { "id": 16777689, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
-                                        Text.height({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                        Text.height({ "id": 16777534, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                         Text.padding({
-                                            left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            right: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            right: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
                                         Text.margin({
-                                            left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            top: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            top: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
                                         if (!isInitialRender) {
                                             Text.pop();
@@ -471,12 +461,12 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item.des);
-                            Text.debugLine("view/Home.ets(167:15)");
-                            Text.fontSize({ "id": 16777636, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Text.debugLine("view/Home.ets(157:15)");
+                            Text.fontSize({ "id": 16777671, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             Text.margin({
-                                top: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                bottom: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                top: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                bottom: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                             });
                             if (!isInitialRender) {
                                 Text.pop();
@@ -487,10 +477,10 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Row.create();
-                            Row.debugLine("view/Home.ets(174:15)");
+                            Row.debugLine("view/Home.ets(164:15)");
                             Row.margin({
-                                left: { "id": 16777658, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                bottom: { "id": 16777658, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                left: { "id": 16777693, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                bottom: { "id": 16777693, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                             });
                             if (!isInitialRender) {
                                 Row.pop();
@@ -499,10 +489,10 @@ export default class Home extends ViewPU {
                         });
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                            Image.create({ "id": 16777284, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.debugLine("view/Home.ets(175:17)");
-                            Image.width({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.height({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.create({ "id": 16777295, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.debugLine("view/Home.ets(165:17)");
+                            Image.width({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.height({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Image.pop();
                             }
@@ -511,9 +501,9 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item.user);
-                            Text.debugLine("view/Home.ets(178:17)");
-                            Text.fontSize({ "id": 16777636, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Text.margin({ left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Text.debugLine("view/Home.ets(168:17)");
+                            Text.fontSize({ "id": 16777671, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Text.margin({ left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -531,8 +521,8 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Column.create();
-                            Column.debugLine("view/Home.ets(139:11)");
-                            Column.borderRadius({ "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Column.debugLine("view/Home.ets(129:11)");
+                            Column.borderRadius({ "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Column.pop();
                             }
@@ -540,8 +530,8 @@ export default class Home extends ViewPU {
                         });
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                            Image.create({ "id": 16777452, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.debugLine("view/Home.ets(140:13)");
+                            Image.create({ "id": 16777469, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.debugLine("view/Home.ets(130:13)");
                             Image.width(StyleConstants.FULL_WIDTH);
                             Image.aspectRatio(new BreakPointType({
                                 sm: aspectRatio.sm,
@@ -557,12 +547,12 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Column.create();
-                            Column.debugLine("view/Home.ets(148:13)");
+                            Column.debugLine("view/Home.ets(138:13)");
                             Column.width(StyleConstants.FULL_WIDTH);
                             Column.backgroundColor(Color.White);
                             Column.alignItems(HorizontalAlign.Start);
                             Column.justifyContent(FlexAlign.Start);
-                            Column.borderRadius({ bottomLeft: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottomRight: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Column.borderRadius({ bottomLeft: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottomRight: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                             if (!isInitialRender) {
                                 Column.pop();
                             }
@@ -576,21 +566,21 @@ export default class Home extends ViewPU {
                                     this.observeComponentCreation((elmtId, isInitialRender) => {
                                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                                         Text.create(item.comment);
-                                        Text.debugLine("view/Home.ets(150:17)");
-                                        Text.fontSize({ "id": 16777638, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                        Text.debugLine("view/Home.ets(140:17)");
+                                        Text.fontSize({ "id": 16777673, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                         Text.border({
-                                            width: { "id": 16777655, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            color: { "id": 16777263, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            radius: { "id": 16777654, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            width: { "id": 16777690, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            color: { "id": 16777272, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            radius: { "id": 16777689, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
-                                        Text.height({ "id": 16777505, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                        Text.height({ "id": 16777534, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                         Text.padding({
-                                            left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            right: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            right: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
                                         Text.margin({
-                                            left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                            top: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                            left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                            top: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                         });
                                         if (!isInitialRender) {
                                             Text.pop();
@@ -612,12 +602,12 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item.des);
-                            Text.debugLine("view/Home.ets(167:15)");
-                            Text.fontSize({ "id": 16777636, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Text.debugLine("view/Home.ets(157:15)");
+                            Text.fontSize({ "id": 16777671, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             Text.margin({
-                                top: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                bottom: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                top: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                bottom: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                             });
                             if (!isInitialRender) {
                                 Text.pop();
@@ -628,10 +618,10 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Row.create();
-                            Row.debugLine("view/Home.ets(174:15)");
+                            Row.debugLine("view/Home.ets(164:15)");
                             Row.margin({
-                                left: { "id": 16777658, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                bottom: { "id": 16777658, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                left: { "id": 16777693, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                bottom: { "id": 16777693, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                             });
                             if (!isInitialRender) {
                                 Row.pop();
@@ -640,10 +630,10 @@ export default class Home extends ViewPU {
                         });
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                            Image.create({ "id": 16777284, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.debugLine("view/Home.ets(175:17)");
-                            Image.width({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.height({ "id": 16777660, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.create({ "id": 16777295, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.debugLine("view/Home.ets(165:17)");
+                            Image.width({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.height({ "id": 16777695, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                             if (!isInitialRender) {
                                 Image.pop();
                             }
@@ -652,9 +642,9 @@ export default class Home extends ViewPU {
                         this.observeComponentCreation((elmtId, isInitialRender) => {
                             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                             Text.create(item.user);
-                            Text.debugLine("view/Home.ets(178:17)");
-                            Text.fontSize({ "id": 16777636, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Text.margin({ left: { "id": 16777650, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Text.debugLine("view/Home.ets(168:17)");
+                            Text.fontSize({ "id": 16777671, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Text.margin({ left: { "id": 16777685, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                             if (!isInitialRender) {
                                 Text.pop();
                             }
@@ -684,7 +674,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Stack.create({ alignContent: Alignment.Top });
-            Stack.debugLine("view/Home.ets(207:5)");
+            Stack.debugLine("view/Home.ets(197:5)");
             if (!isInitialRender) {
                 Stack.pop();
             }
@@ -692,10 +682,10 @@ export default class Home extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777288, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.debugLine("view/Home.ets(208:7)");
+            Image.create({ "id": 16777299, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.debugLine("view/Home.ets(198:7)");
             Image.width(StyleConstants.FULL_WIDTH);
-            Image.height({ "id": 16777548, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777580, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.objectFit(ImageFit.Auto);
             if (!isInitialRender) {
                 Image.pop();
@@ -705,8 +695,8 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Flex.create({ direction: FlexDirection.Column });
-            Flex.debugLine("view/Home.ets(212:7)");
-            Flex.padding({ left: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777659, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Flex.debugLine("view/Home.ets(202:7)");
+            Flex.padding({ left: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777694, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Flex.pop();
             }
@@ -716,7 +706,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Scroll.create();
-            Scroll.debugLine("view/Home.ets(214:9)");
+            Scroll.debugLine("view/Home.ets(204:9)");
             Scroll.scrollBar(BarState.Off);
             if (!isInitialRender) {
                 Scroll.pop();
@@ -726,7 +716,7 @@ export default class Home extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
-            Column.debugLine("view/Home.ets(215:11)");
+            Column.debugLine("view/Home.ets(205:11)");
             if (!isInitialRender) {
                 Column.pop();
             }

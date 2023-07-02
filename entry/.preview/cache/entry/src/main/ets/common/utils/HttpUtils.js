@@ -66,11 +66,11 @@ function httpRequest(url, method, params) {
             serverData.msg = resultJson.msg;
         }
         else {
-            serverData.msg = `${{ "id": 16777330, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }}&${value.responseCode}`;
+            serverData.msg = `${{ "id": 16777340, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }}&${value.responseCode}`;
         }
         return serverData;
     }).catch(() => {
-        serverData.msg = { "id": 16777330, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+        serverData.msg = { "id": 16777340, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
         return serverData;
     });
 }
