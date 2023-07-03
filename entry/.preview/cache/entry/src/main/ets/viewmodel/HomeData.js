@@ -34,10 +34,10 @@ const classifyTitle = [
     '失物',
 ];
 const swiperImage = [
-    { "id": 16777478, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777485, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777474, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+    { "id": 16777481, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
     { "id": 16777219, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-    { "id": 16777467, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+    { "id": 16777463, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
 ];
 const activityTitle = [
     {

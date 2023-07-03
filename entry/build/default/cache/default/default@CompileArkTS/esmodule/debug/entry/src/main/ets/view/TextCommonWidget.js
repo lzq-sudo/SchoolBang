@@ -53,11 +53,11 @@ export default class TextCommonWidget extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.margin({ top: { "id": 16777474, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Row.borderRadius({ "id": 16777473, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.margin({ top: { "id": 16777547, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Row.borderRadius({ "id": 16777546, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             Row.width(CommonConstants.COMMON_DIALOG_WIDTH);
-            Row.height({ "id": 16777472, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.height({ "id": 16777545, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.onClick(this.onItemClick);
             if (!isInitialRender) {
                 Row.pop();
@@ -67,8 +67,8 @@ export default class TextCommonWidget extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
-            Text.fontSize({ "id": 16777500, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ left: { "id": 16777413, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ left: { "id": 16777480, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Text.height(CommonConstants.FULL_HEIGHT);
             if (!isInitialRender) {
                 Text.pop();
@@ -79,13 +79,13 @@ export default class TextCommonWidget extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.content);
-            Text.fontSize({ "id": 16777500, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.textAlign(TextAlign.End);
             Text.textOverflow({ overflow: TextOverflow.Ellipsis });
             Text.maxLines(CommonConstants.ONE_LINES);
             Text.margin({
-                left: { "id": 16777381, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777382, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777440, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777441, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             Text.layoutWeight(CommonConstants.WEIGHT_ONE);
             Text.width(CommonConstants.FULL_WIDTH);
@@ -97,10 +97,10 @@ export default class TextCommonWidget extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777531, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777366, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777365, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ right: { "id": 16777367, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.create({ "id": 16777626, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777408, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ right: { "id": 16777410, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Image.pop();
             }

@@ -17,7 +17,7 @@ import CommonConstants from '../common/constants/CommonConstants';
 import Home from "../view/Home"
 import Launch from '../view/Launch';
 import Setting from "../view/Setting"
-import LaunchEditPage from "../view/LaunchEditPage"
+import LaunchEditPage from "./LaunchEditPage"
 import router from '@ohos.router';
 import { BreakpointConstants } from '../common/constants/BreakpointConstants';
 import { StyleConstants } from '../common/constants/StyleConstants';

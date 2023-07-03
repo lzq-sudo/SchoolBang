@@ -17,6 +17,8 @@
  * Common constants for all features.
  */
 export default class CommonConstants {
+  static readonly LAUNCHER_DELAY_TIME: number = 2000; // 2000ms
+
   /**
    * Input length of the account.
    */

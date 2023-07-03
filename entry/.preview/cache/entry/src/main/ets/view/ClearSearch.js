@@ -42,15 +42,15 @@ export default class ClearSearch extends ViewPU {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         Text.create({ "id": 16777377, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.debugLine("view/ClearSearch.ets(11:9)");
-                        Text.fontSize({ "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.fontColor({ "id": 16777264, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.fontWeight(StyleConstants.FONT_WEIGHT);
                         Text.height(StyleConstants.RECENT_TEXT_HEIGHT);
                         Text.layoutWeight(StyleConstants.LAYOUT_ClEAN_WEIGHT);
                         Text.margin({
-                            left: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                            top: { "id": 16777533, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                            bottom: { "id": 16777532, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                            left: { "id": 16777618, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                            top: { "id": 16777529, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                            bottom: { "id": 16777528, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                         });
                         if (!isInitialRender) {
                             Text.pop();
@@ -60,11 +60,11 @@ export default class ClearSearch extends ViewPU {
                     Text.pop();
                     this.observeComponentCreation((elmtId, isInitialRender) => {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                        Image.create({ "id": 16777488, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.create({ "id": 16777484, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Image.debugLine("view/ClearSearch.ets(23:9)");
                         Image.height(StyleConstants.DELETE_IMAGE_HEIGHT);
                         Image.width(StyleConstants.DELETE_IMAGE_WIDTH);
-                        Image.margin({ right: { "id": 16777530, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                        Image.margin({ right: { "id": 16777526, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                         Image.onClick(() => {
                             this.searchArr.splice(0, this.searchArr.length);
                             this.searchArr.length = 0;
@@ -96,8 +96,8 @@ export default class ClearSearch extends ViewPU {
                         Image.height(StyleConstants.NO_SEARCH_IMAGE_HEIGHT);
                         Image.width(StyleConstants.NO_SEARCH_IMAGE_WIDTH);
                         Image.margin({
-                            top: { "id": 16777531, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                            bottom: { "id": 16777624, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                            top: { "id": 16777527, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                            bottom: { "id": 16777620, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                         });
                         if (!isInitialRender) {
                             Image.pop();
@@ -108,7 +108,7 @@ export default class ClearSearch extends ViewPU {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         Text.create({ "id": 16777364, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.debugLine("view/ClearSearch.ets(41:11)");
-                        Text.fontSize({ "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.fontColor({ "id": 16777258, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         Text.height(StyleConstants.NO_SEARCH_TEXT_HEIGHT);
                         Text.width(StyleConstants.NO_SEARCH_TEXT_WIDTH);

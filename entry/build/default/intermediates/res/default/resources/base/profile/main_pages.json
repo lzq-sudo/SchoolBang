@@ -1,6 +1,10 @@
 {
   "src": [
     "pages/LoginPage",
-    "pages/MainPage"
+    "pages/MainPage",
+    "pages/RegisterPage",
+    "pages/Search",
+    "pages/SplashPage",
+    "pages/LaunchEditPage"
   ]
 }

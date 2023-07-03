@@ -24,10 +24,10 @@ export class MainViewModel {
      */
     getSwiperImages() {
         let swiperImages = [
-            { "id": 16777518, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-            { "id": 16777519, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-            { "id": 16777520, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-            { "id": 16777521, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+            { "id": 16777612, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+            { "id": 16777613, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+            { "id": 16777614, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+            { "id": 16777615, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
         ];
         return swiperImages;
     }
@@ -38,14 +38,14 @@ export class MainViewModel {
      */
     getFirstGridData() {
         let firstGridData = [
-            new ItemData({ "id": 16777261, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777560, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777237, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777569, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777256, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777562, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777293, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777573, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777260, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777575, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777234, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777513, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777231, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777517, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777275, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777570, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" })
+            new ItemData({ "id": 16777269, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777672, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777245, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777684, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777264, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777674, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777304, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777688, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777268, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777690, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777242, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777607, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777239, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777611, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777285, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777685, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" })
         ];
         return firstGridData;
     }
@@ -56,10 +56,10 @@ export class MainViewModel {
      */
     getSecondGridData() {
         let secondGridData = [
-            new ItemData({ "id": 16777254, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777576, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777253, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777247, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777565, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777252, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777245, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777512, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777250, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777246, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777522, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777251, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" })
+            new ItemData({ "id": 16777262, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777691, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777261, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777255, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777680, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777260, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777253, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777606, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777258, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777254, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777618, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777259, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" })
         ];
         return secondGridData;
     }
@@ -70,12 +70,12 @@ export class MainViewModel {
      */
     getSettingListData() {
         let settingListData = [
-            new ItemData({ "id": 16777289, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777566, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777292, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
-            new ItemData({ "id": 16777287, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777514, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777288, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777561, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777286, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777509, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777291, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777574, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
-            new ItemData({ "id": 16777290, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777568, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null)
+            new ItemData({ "id": 16777300, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777681, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777303, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }),
+            new ItemData({ "id": 16777298, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777608, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777299, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777673, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777297, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777602, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777302, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777689, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null),
+            new ItemData({ "id": 16777301, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777683, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, null)
         ];
         return settingListData;
     }

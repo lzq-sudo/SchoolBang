@@ -17,11 +17,11 @@ class NewsViewModel {
                 }
                 else {
                     Logger.error('getNewsList failed', JSON.stringify(data));
-                    reject({ "id": 16777264, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    reject({ "id": 16777273, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 }
             }).catch((err) => {
                 Logger.error('getNewsList failed', JSON.stringify(err));
-                reject({ "id": 16777239, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                reject({ "id": 16777247, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             });
         });
     }
@@ -39,11 +39,11 @@ class NewsViewModel {
                     resolve(result.data);
                 }
                 else {
-                    reject({ "id": 16777317, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    reject({ "id": 16777343, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 }
             }).catch((err) => {
                 Logger.error('uploadNews failed', JSON.stringify(err));
-                reject({ "id": 16777317, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                reject({ "id": 16777343, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             });
         });
     }

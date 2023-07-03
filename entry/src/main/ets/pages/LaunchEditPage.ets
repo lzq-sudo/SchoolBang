@@ -6,7 +6,7 @@ import { fileSelect, fileUpload } from '../common/utils/FileUtil';
 import { NewsFile, NewsData } from '../common/bean/NewsData';
 import NewsViewModel from '../viewmodel/NewsViewModel';
 import { showToast } from '../common/utils/ToastUtil';
-import UploadingLayout from './UploadingLayout';
+import UploadingLayout from '../view/UploadingLayout';
 import TextLaunchCommonWidget from '../view/TextLaunchCommonWidget';
 import CommonUtils from '../common/utils/CommonUtils';
 
@@ -152,6 +152,11 @@ export default struct LaunchEditPage {
         UploadingLayout()
       }
     }
+  }
+
+  pageTransition() {
+    PageTransitionEnter({ duration: 600, curve: Curve.Smooth }).slide(SlideEffect.Bottom);
+    PageTransitionExit({ duration: 600, curve: Curve.Smooth }).slide(SlideEffect.Right);
   }
 }
 

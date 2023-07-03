@@ -38,10 +38,10 @@ export default class FlexLayout extends ViewPU {
             Flex.create({ justifyContent: FlexAlign.Start, wrap: FlexWrap.Wrap });
             Flex.debugLine("view/FlexLayout.ets(10:7)");
             Flex.margin({
-                left: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777618, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777618, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
-            Flex.padding({ bottom: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Flex.padding({ bottom: { "id": 16777618, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Flex.pop();
             }
@@ -61,11 +61,11 @@ export default class FlexLayout extends ViewPU {
                                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                                 Text.create(`${item}`);
                                 Text.debugLine("view/FlexLayout.ets(13:13)");
-                                Text.fontSize({ "id": 16777555, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                Text.fontSize({ "id": 16777551, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                 Text.borderStyle(BorderStyle.Solid);
-                                Text.borderWidth({ "id": 16777523, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                Text.borderWidth({ "id": 16777519, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                 Text.borderColor({ "id": 16777238, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                                Text.borderRadius({ "id": 16777522, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                                Text.borderRadius({ "id": 16777518, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                 Text.backgroundColor({ "id": 16777238, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                                 Text.padding({
                                     top: StyleConstants.FLEX_PADDING_TOP,
@@ -74,8 +74,8 @@ export default class FlexLayout extends ViewPU {
                                     right: StyleConstants.FLEX_PADDING_RIGHT
                                 });
                                 Text.margin({
-                                    top: { "id": 16777556, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                                    right: { "id": 16777556, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                                    top: { "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                                    right: { "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                                 });
                                 Text.textOverflow({ overflow: TextOverflow.Ellipsis });
                                 Text.maxLines(StyleConstants.TEXT_MAX_LINE);

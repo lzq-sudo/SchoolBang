@@ -17,6 +17,7 @@
  */
 export default class CommonConstants {
 }
+CommonConstants.LAUNCHER_DELAY_TIME = 2000; // 2000ms
 /**
  * Input length of the account.
  */

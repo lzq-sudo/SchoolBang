@@ -52,8 +52,8 @@ export default class SearchInput extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create({ "id": 16777287, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("view/SearchInput.ets(13:7)");
-            Image.width({ "id": 16777579, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777579, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777575, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777575, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.alignSelf(ItemAlign.Start);
             Image.margin({
                 left: '3.2%',
@@ -79,9 +79,9 @@ export default class SearchInput extends ViewPU {
             // Search component.
             Search.placeholderColor({ "id": 16777262, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             // Search component.
-            Search.placeholderFont({ size: { "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Search.placeholderFont({ size: { "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             // Search component.
-            Search.textFont({ size: { "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Search.textFont({ size: { "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             // Search component.
             Search.height(StyleConstants.SEARCH_HEIGHT);
             // Search component.
@@ -90,16 +90,16 @@ export default class SearchInput extends ViewPU {
             Search.backgroundColor(Color.White);
             // Search component.
             Search.margin({
-                left: { "id": 16777622, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777623, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                top: { "id": 16777624, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                bottom: { "id": 16777624, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777618, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777619, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                top: { "id": 16777620, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                bottom: { "id": 16777620, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             // Search component.
             Search.border({
-                width: { "id": 16777523, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                width: { "id": 16777519, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 color: { "id": 16777226, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                radius: { "id": 16777522, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                radius: { "id": 16777518, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 style: BorderStyle.Solid
             });
             // Search component.
@@ -120,7 +120,7 @@ export default class SearchInput extends ViewPU {
             Text.create({ "id": 16777386, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("view/SearchInput.ets(53:7)");
             // Search Text.
-            Text.fontSize({ "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             // Search Text.
             Text.fontColor({ "id": 16777225, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             // Search Text.

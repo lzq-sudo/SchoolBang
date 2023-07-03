@@ -10,7 +10,7 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "ArkTSComponents"
+      "value": "校园帮"
     },
     {
       "name": "login_page",
@@ -427,22 +427,6 @@
     {
       "name": "tab_science",
       "value": "Science"
-    },
-    {
-      "name": "swiper_model_mate",
-      "value": "XXXXXX xs2"
-    },
-    {
-      "name": "swiper_model_chang",
-      "value": "XX20 Plus"
-    },
-    {
-      "name": "swiper_model_mate_book",
-      "value": "XXXXBook 13"
-    },
-    {
-      "name": "swiper_model_Nova",
-      "value": "XXXX7 Pro"
     },
     {
       "name": "title_bar_homepage",

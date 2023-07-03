@@ -34,7 +34,7 @@ export async function fileSelect() {
         if (photoSelectResult && photoSelectResult.photoUris && photoSelectResult.photoUris.length > 0) {
             let imgUri = photoSelectResult.photoUris[0];
             if (imgUri.indexOf('media/image') < 0) {
-                showToast({ "id": 16777270, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                showToast({ "id": 16777279, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 return null;
             }
             return photoSelectResult.photoUris[0];
@@ -98,7 +98,7 @@ export function fileUpload(context, fileUri) {
                 data.on("fail" /* FAIL */, (result) => {
                     Logger.info('uploadFile failed', JSON.stringify(result));
                     if (result && result.length >= 1) {
-                        serverData.msg = { "id": 16777317, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+                        serverData.msg = { "id": 16777343, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
                         reject(serverData);
                     }
                 });

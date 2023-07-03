@@ -54,7 +54,7 @@ export default class TextCommonWidget extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
             Row.margin({ top: 12 });
-            Row.borderRadius({ "id": 16777469, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777546, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
             Row.width(CommonConstants.COMMON_DIALOG_WIDTH);
             Row.height(50);
@@ -67,7 +67,7 @@ export default class TextCommonWidget extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.title);
-            Text.fontSize({ "id": 16777496, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.margin({ left: 6 });
             Text.height(CommonConstants.FULL_HEIGHT);
             if (!isInitialRender) {
@@ -79,13 +79,13 @@ export default class TextCommonWidget extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(this.content);
-            Text.fontSize({ "id": 16777496, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777576, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.textAlign(TextAlign.End);
             Text.textOverflow({ overflow: TextOverflow.Ellipsis });
             Text.maxLines(CommonConstants.ONE_LINES);
             Text.margin({
-                left: { "id": 16777377, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777378, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777440, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777441, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             Text.layoutWeight(CommonConstants.WEIGHT_ONE);
             Text.width(CommonConstants.FULL_WIDTH);
@@ -97,10 +97,10 @@ export default class TextCommonWidget extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777527, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777362, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777361, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ right: { "id": 16777363, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.create({ "id": 16777626, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777409, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777408, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ right: { "id": 16777410, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Image.pop();
             }

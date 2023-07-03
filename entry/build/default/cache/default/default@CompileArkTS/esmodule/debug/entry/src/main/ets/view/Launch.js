@@ -1,3 +1,4 @@
+import router from '@ohos:router';
 export default class Launch extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1) {
         super(parent, __localStorage, elmtId);
@@ -13,30 +14,17 @@ export default class Launch extends ViewPU {
         SubscriberManager.Get().delete(this.id__());
         this.aboutToBeDeletedInternal();
     }
-    initialRender() {
-        this.observeComponentCreation((elmtId, isInitialRender) => {
-            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Stack.create();
-            if (!isInitialRender) {
-                Stack.pop();
-            }
-            ViewStackProcessor.StopGetAccessRecording();
-        });
-        this.observeComponentCreation((elmtId, isInitialRender) => {
-            ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777502, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777349, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777349, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ bottom: { "id": 16777348, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777348, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            if (!isInitialRender) {
-                Image.pop();
-            }
-            ViewStackProcessor.StopGetAccessRecording();
-        });
-        Stack.pop();
+    aboutToAppear() {
+        setTimeout(() => {
+            router.pushUrl({ url: 'pages/LaunchEditPage' });
+        }, 2000);
     }
+    initialRender() { }
     rerender() {
         this.updateDirtyElements();
     }
 }
+ViewStackProcessor.StartGetAccessRecordingFor(ViewStackProcessor.AllocateNewElmetIdForNextComponent());
+loadDocument(new Launch(undefined, {}));
+ViewStackProcessor.StopGetAccessRecording();
 //# sourceMappingURL=Launch.js.map

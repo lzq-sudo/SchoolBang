@@ -36,8 +36,8 @@ export default class Setting extends ViewPU {
             Row.justifyContent(FlexAlign.SpaceBetween);
             Row.width(CommonConstants.FULL_PARENT);
             Row.padding({
-                left: { "id": 16777489, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777490, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777567, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777568, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Row.pop();
@@ -55,8 +55,8 @@ export default class Setting extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create(item.img);
-            Image.width({ "id": 16777491, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777491, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777569, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777569, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -65,7 +65,7 @@ export default class Setting extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Text.create(item.title);
-            Text.fontSize({ "id": 16777454, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777530, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -80,9 +80,9 @@ export default class Setting extends ViewPU {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation((elmtId, isInitialRender) => {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-                        Image.create({ "id": 16777571, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        Image.width({ "id": 16777480, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        Image.height({ "id": 16777479, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.create({ "id": 16777686, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.width({ "id": 16777558, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.height({ "id": 16777557, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         if (!isInitialRender) {
                             Image.pop();
                         }
@@ -141,11 +141,11 @@ export default class Setting extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777249, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777257, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Medium);
-            Text.fontSize({ "id": 16777463, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777447, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Text.padding({ left: { "id": 16777448, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777539, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777518, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.padding({ left: { "id": 16777519, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -156,13 +156,13 @@ export default class Setting extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Row.create();
-            Row.margin({ top: { "id": 16777474, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Row.margin({ top: { "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Row.alignItems(VerticalAlign.Center);
             Row.width(CommonConstants.FULL_PARENT);
-            Row.height({ "id": 16777473, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.height({ "id": 16777551, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
-            Row.padding({ left: { "id": 16777475, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Row.borderRadius({ "id": 16777471, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.padding({ left: { "id": 16777553, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Row.borderRadius({ "id": 16777549, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Row.pop();
             }
@@ -170,9 +170,9 @@ export default class Setting extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777510, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777476, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777476, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777603, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777554, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -182,7 +182,7 @@ export default class Setting extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Column.create();
             Column.alignItems(HorizontalAlign.Start);
-            Column.margin({ left: { "id": 16777474, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Column.margin({ left: { "id": 16777552, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Column.pop();
             }
@@ -190,8 +190,8 @@ export default class Setting extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777284, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontSize({ "id": 16777472, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777295, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777550, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -200,9 +200,9 @@ export default class Setting extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777283, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontSize({ "id": 16777429, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777487, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.create({ "id": 16777294, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777500, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777565, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Text.pop();
             }
@@ -216,13 +216,13 @@ export default class Setting extends ViewPU {
             List.create();
             List.backgroundColor(Color.White);
             List.divider({
-                strokeWidth: { "id": 16777486, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                strokeWidth: { "id": 16777564, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 color: Color.Grey,
-                startMargin: { "id": 16777485, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                endMargin: { "id": 16777482, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                startMargin: { "id": 16777563, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                endMargin: { "id": 16777560, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
-            List.borderRadius({ "id": 16777481, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            List.padding({ top: { "id": 16777484, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777484, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            List.borderRadius({ "id": 16777559, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            List.padding({ top: { "id": 16777562, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777562, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 List.pop();
             }
@@ -238,7 +238,7 @@ export default class Setting extends ViewPU {
                     const itemCreation = (elmtId, isInitialRender) => {
                         ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
                         ListItem.create(deepRenderFunction, isLazyCreate);
-                        ListItem.height({ "id": 16777483, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        ListItem.height({ "id": 16777561, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         if (!isInitialRender) {
                             ListItem.pop();
                         }
@@ -286,14 +286,14 @@ export default class Setting extends ViewPU {
         Blank.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Button.createWithLabel({ "id": 16777285, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
+            Button.createWithLabel({ "id": 16777296, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
             Button.width(CommonConstants.BUTTON_WIDTH);
-            Button.height({ "id": 16777430, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777454, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontColor({ "id": 16777355, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777501, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777530, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontColor({ "id": 16777395, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
-            Button.backgroundColor({ "id": 16777354, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.margin({ bottom: { "id": 16777478, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Button.backgroundColor({ "id": 16777394, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.margin({ bottom: { "id": 16777556, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
                 Button.pop();
             }

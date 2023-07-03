@@ -416,13 +416,13 @@
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\entryability\\EntryAbility.ts": {
-      "mtimeMs": 1682044502000,
+      "mtimeMs": 1688386626914.0522,
       "children": [],
       "parent": [],
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LoginPage.ets": {
-      "mtimeMs": 1687696532779.8467,
+      "mtimeMs": 1688204182027.2234,
       "children": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
       ],
@@ -430,35 +430,46 @@
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets": {
-      "mtimeMs": 1687704205847.8245,
+      "mtimeMs": 1688393265527.2634,
       "children": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Launch.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Setting.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\BreakpointConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets"
       ],
       "parent": [],
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
-      "mtimeMs": 1687701603040.0276,
+      "mtimeMs": 1688386135347.5847,
       "children": [],
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LoginPage.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Setting.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextLaunchCommonWidget.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextLaunchCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextRegisterCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\SearchInput.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\SplashPage.ets"
       ],
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets": {
-      "mtimeMs": 1687791880651.8313,
+      "mtimeMs": 1688308731791.0935,
       "children": [
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TabBar.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constant\\CommonConstant.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\BreakpointConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\HomeData.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\NewProductData.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonDataSource.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\BreakpointSystem.ets"
       ],
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets"
@@ -601,7 +612,8 @@
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\NewsViewModel.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\HttpUtils.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\RefreshListViewModel.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -648,7 +660,7 @@
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\MainViewModel.ets": {
-      "mtimeMs": 1682044502000,
+      "mtimeMs": 1688197127714.6953,
       "children": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\bean\\ItemData.ets"
       ],
@@ -658,12 +670,8 @@
       "error": false
     },
     "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Launch.ets": {
-      "mtimeMs": 1687703951320.6785,
-      "children": [
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constant\\CommonConstant.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchSubPage.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\Constants.ets"
-      ],
+      "mtimeMs": 1688393114028.7441,
+      "children": [],
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets"
       ],
@@ -709,7 +717,10 @@
       ],
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets"
       ],
       "error": false
     },
@@ -719,7 +730,10 @@
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\NewsViewModel.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\SplashPage.ets"
       ],
       "error": false
     },
@@ -854,7 +868,8 @@
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Launch.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\UploadingLayout.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\UploadingLayout.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -869,7 +884,8 @@
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\newslist.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\RefreshListViewModel.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -881,7 +897,8 @@
       "parent": [
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\newslist.ets",
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -968,7 +985,8 @@
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\ToastUtil.ets"
       ],
       "parent": [
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -978,7 +996,8 @@
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\Constants.ets"
       ],
       "parent": [
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -988,7 +1007,8 @@
         "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
       ],
       "parent": [
-        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets"
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\LaunchEditPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets"
       ],
       "error": false
     },
@@ -1005,6 +1025,206 @@
       "error": false
     },
     "C:\\Users\\61733\\AppData\\Local\\Huawei\\Sdk\\openharmony\\9\\ets\\api\\@ohos.file.picker.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets": {
+      "mtimeMs": 1688188408708.7117,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextRegisterCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets": {
+      "mtimeMs": 1688387780481.8633,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\SearchInput.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\ClearSearch.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\FlexLayout.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\SearchViewModel.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\SplashPage.ets": {
+      "mtimeMs": 1688386920442.7427,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\LaunchEditPage.ets": {
+      "mtimeMs": 1688393243680.3955,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\Constants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\FileUtil.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\bean\\NewsData.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\NewsViewModel.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\ToastUtil.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\UploadingLayout.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextLaunchCommonWidget.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\BreakpointConstants.ets": {
+      "mtimeMs": 1688273729406.9902,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\BreakpointSystem.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets": {
+      "mtimeMs": 1688310390658.2368,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\SearchInput.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\ClearSearch.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\FlexLayout.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\HomeData.ets": {
+      "mtimeMs": 1688306525490.5725,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\NewProductData.ets": {
+      "mtimeMs": 1688273729411.9905,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonDataSource.ets": {
+      "mtimeMs": 1688273729407.99,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\BreakpointSystem.ets": {
+      "mtimeMs": 1688273729407.99,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\BreakpointConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\Home.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\61733\\AppData\\Local\\Huawei\\Sdk\\openharmony\\9\\ets\\api\\@ohos.mediaquery.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextCommonWidget.ets": {
+      "mtimeMs": 1688179355864.3677,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\TextRegisterCommonWidget.ets": {
+      "mtimeMs": 1688181200707.656,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets": {
+      "mtimeMs": 1679889685974.1978,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\bean\\HobbyBean.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\utils\\CommonUtils.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\RegisterPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\bean\\HobbyBean.ets": {
+      "mtimeMs": 1679889685970.1646,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\CustomDialogWidget.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\SearchInput.ets": {
+      "mtimeMs": 1688311227126.1748,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets",
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\ClearSearch.ets": {
+      "mtimeMs": 1688311256077.8396,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\view\\FlexLayout.ets": {
+      "mtimeMs": 1688311261108.861,
+      "children": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\common\\constants\\StyleConstants.ets"
+      ],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets"
+      ],
+      "error": false
+    },
+    "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\viewmodel\\SearchViewModel.ets": {
+      "mtimeMs": 1688309750680.886,
+      "children": [],
+      "parent": [
+        "D:\\huaweiDev\\ArkTSSchoolBang\\entry\\src\\main\\ets\\pages\\Search.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\61733\\AppData\\Local\\Huawei\\Sdk\\openharmony\\9\\ets\\api\\@ohos.data.preferences.d.ts": {
       "mtimeMs": 978278400000,
       "children": [],
       "parent": [],

@@ -42,9 +42,9 @@ export default class UploadingLayout extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Image.create({ "id": 16777547, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777372, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777372, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.create({ "id": 16777652, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777424, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777424, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
                 Image.pop();
             }
@@ -52,10 +52,10 @@ export default class UploadingLayout extends ViewPU {
         });
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
-            Text.create({ "id": 16777318, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777375, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Text.fontSize({ "id": 16777497, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777357, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777344, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.margin({ top: { "id": 16777438, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777577, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777401, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
             if (!isInitialRender) {
                 Text.pop();

@@ -7,16 +7,16 @@ import router from '@ohos:router';
 import prompt from '@ohos:promptAction';
 function __TextInput__inputStyle() {
     TextInput.placeholderColor({ "id": 16777262, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.height({ "id": 16777605, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-    TextInput.fontSize({ "id": 16777517, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.height({ "id": 16777601, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777513, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.backgroundColor({ "id": 16777224, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     TextInput.width(CommonConstants.FULL_PARENT);
     TextInput.padding({ left: CommonConstants.INPUT_PADDING_LEFT });
-    TextInput.margin({ top: { "id": 16777587, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+    TextInput.margin({ top: { "id": 16777583, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
 }
 function __Line__lineStyle() {
     Line.width(CommonConstants.FULL_PARENT);
-    Line.height({ "id": 16777598, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+    Line.height({ "id": 16777594, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
     Line.backgroundColor({ "id": 16777248, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
 }
 class RegisterPage extends ViewPU {
@@ -577,9 +577,9 @@ class RegisterPage extends ViewPU {
             Column.height(CommonConstants.FULL_PARENT);
             Column.width(CommonConstants.FULL_PARENT);
             Column.padding({
-                left: { "id": 16777639, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                right: { "id": 16777639, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
-                bottom: { "id": 16777608, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                left: { "id": 16777635, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                right: { "id": 16777635, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                bottom: { "id": 16777604, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
             });
             if (!isInitialRender) {
                 Column.pop();
@@ -590,8 +590,8 @@ class RegisterPage extends ViewPU {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Image.create({ "id": 16777304, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.debugLine("pages/RegisterPage.ets(237:7)");
-            Image.width({ "id": 16777579, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777579, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777575, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777575, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Image.alignSelf(ItemAlign.Start);
             Image.margin({
                 left: CommonConstants.BACK_MARGIN_LEFT,
@@ -610,7 +610,7 @@ class RegisterPage extends ViewPU {
             Text.create({ "id": 16777410, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.debugLine("pages/RegisterPage.ets(248:7)");
             Text.fontColor(Color.Black);
-            Text.fontSize({ "id": 16777641, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777637, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.margin({ top: CommonConstants.PERSONAL_MARGIN_TOP });
             Text.alignSelf(ItemAlign.Center);
             if (!isInitialRender) {
@@ -698,12 +698,12 @@ class RegisterPage extends ViewPU {
             Button.createWithLabel({ "id": 16777383, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { type: ButtonType.Capsule });
             Button.debugLine("pages/RegisterPage.ets(276:7)");
             Button.width(CommonConstants.BUTTON_WIDTH);
-            Button.height({ "id": 16777602, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.fontSize({ "id": 16777631, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.height({ "id": 16777598, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777627, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.fontWeight(FontWeight.Medium);
             Button.fontColor({ "id": 16777225, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Button.backgroundColor({ "id": 16777254, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Button.margin({ bottom: { "id": 16777657, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Button.margin({ bottom: { "id": 16777653, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Button.onClick(() => {
                 this.register();
             });
